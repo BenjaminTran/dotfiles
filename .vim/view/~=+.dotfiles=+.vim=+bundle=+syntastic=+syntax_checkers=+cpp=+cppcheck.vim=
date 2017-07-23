@@ -81,7 +81,7 @@ setlocal makeprg=
 setlocal matchpairs=(:),{:},[:]
 setlocal modeline
 setlocal modifiable
-setlocal nrformats=hex
+setlocal nrformats=bin,hex
 setlocal number
 setlocal numberwidth=4
 setlocal omnifunc=
@@ -98,11 +98,11 @@ setlocal shiftwidth=4
 setlocal noshortname
 setlocal signcolumn=auto
 setlocal nosmartindent
-setlocal softtabstop=0
+setlocal softtabstop=4
 setlocal nospell
 setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
 setlocal spellfile=
-setlocal spelllang=en_us
+setlocal spelllang=en
 setlocal statusline=%!airline#statusline(1)
 setlocal suffixesadd=
 setlocal swapfile
@@ -113,7 +113,7 @@ endif
 setlocal tabstop=8
 setlocal tagcase=
 setlocal tags=
-setlocal textwidth=80
+setlocal textwidth=78
 setlocal thesaurus=
 setlocal noundofile
 setlocal undolevels=-123456
@@ -121,12 +121,12 @@ setlocal nowinfixheight
 setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
-let s:l = 24 - ((23 * winheight(0) + 21) / 42)
+let s:l = 1 - ((0 * winheight(0) + 21) / 42)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-24
-normal! 016|
+1
+normal! 0
 let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost
 " vim: set ft=vim :

@@ -37,8 +37,8 @@ setlocal nodiff
 setlocal equalprg=
 setlocal errorformat=
 setlocal noexpandtab
-if &filetype != 'c'
-setlocal filetype=c
+if &filetype != 'c.root'
+setlocal filetype=c.root
 endif
 setlocal fixendofline
 setlocal foldcolumn=0
@@ -96,12 +96,12 @@ setlocal nospell
 setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
 setlocal spellfile=
 setlocal spelllang=en
-setlocal statusline=
+setlocal statusline=%!airline#statusline(1)
 setlocal suffixesadd=
 setlocal swapfile
 setlocal synmaxcol=3000
-if &syntax != 'c'
-setlocal syntax=c
+if &syntax != 'c.root'
+setlocal syntax=c.root
 endif
 setlocal tabstop=4
 setlocal tagcase=
@@ -114,12 +114,12 @@ setlocal nowinfixheight
 setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
-let s:l = 76 - ((33 * winheight(0) + 28) / 57)
+let s:l = 104 - ((20 * winheight(0) + 21) / 42)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-76
-normal! 016|
+104
+normal! 013|
 let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost
 " vim: set ft=vim :

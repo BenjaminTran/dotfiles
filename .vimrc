@@ -1,11 +1,6 @@
 " enable mouse
 set mouse=a
 
-" navigating tabs
-map <leader>n <esc>:tabprevious<CR>
-map <leader>m <esc>:tabnext<CR>
-nnoremap <leader>t :tabnew<CR>
-
 "easier indentation handling
 vnoremap < <gv
 vnoremap > >gv
@@ -18,13 +13,15 @@ let g:airline_theme='luna'
 
 " Show whitespace
 highlight ExtraWhitespace ctermbg=lightgreen guibg=lightgreen
-match ExtraWhitespace /\s\+$/
+au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+au InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=lightgreen guibg=lightgreen
 
 let mapleader=","
 set sm
 set showmatch
 set ai
+set nojoinspaces
 highlight CursorLine ctermbg=DarkGray
 execute pathogen#infect()
 syntax on
@@ -55,6 +52,11 @@ if $TERM_PROGRAM =~ "iTerm"
     let &t_SI = "\<ESC>]50;CursorShape=1\x7" " Vertical bar in insert mode
     let &t_EI = "\<ESC>]50;CursorShape=0\x7" " Block in normal mode
 endif
+
+" navigating tabs
+nnoremap <leader>n :tabprevious<CR>
+nnoremap <leader>m :tabnext<CR>
+nnoremap <leader>t :tabnew<CR>
 
 nnoremap <leader>e :NERDTree<CR>
 nnoremap <C-e> 5<C-e>
@@ -150,7 +152,8 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
-let g:syntastic_cpp_checkers = []
+let g:syntastic_cpp_checkers = ['gcc']
+let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1

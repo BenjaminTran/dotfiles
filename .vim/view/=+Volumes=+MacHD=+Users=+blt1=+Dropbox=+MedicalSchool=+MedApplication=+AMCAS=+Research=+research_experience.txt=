@@ -87,7 +87,7 @@ setlocal noshortname
 setlocal signcolumn=auto
 setlocal nosmartindent
 setlocal softtabstop=0
-setlocal nospell
+setlocal spell
 setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
 setlocal spellfile=
 setlocal spelllang=en
@@ -110,11 +110,15 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 23 - ((20 * winheight(0) + 21) / 42)
+1,6fold
+8,14fold
+16,29fold
+31,41fold
+let s:l = 1 - ((0 * winheight(0) + 21) / 42)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-23
+1
 normal! 0
 let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost
