@@ -10,12 +10,21 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline_theme='luna'
 "let g:airline_solarized_bg='dark'
+let g:airline#extensions#tabline#fnamemod = ':t'
 
 " Show whitespace
 highlight ExtraWhitespace ctermbg=lightgreen guibg=lightgreen
 au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 au InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=lightgreen guibg=lightgreen
+
+filetype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
 
 let mapleader=","
 set sm
@@ -25,7 +34,6 @@ set nojoinspaces
 highlight CursorLine ctermbg=DarkGray
 execute pathogen#infect()
 syntax on
-filetype plugin indent on
 let java_highlight_all=1
 let java_highlight_functions="style"
 let java_allow_cpp_keywords=1
@@ -48,7 +56,10 @@ au BufWinLeave * mkview          " auto save created folds
 au BufWinEnter * silent loadview " auto load created folds
 
 " Change cursor shape to vertical bar in insert mode
-if $TERM_PROGRAM =~ "iTerm"
+if exists('$TMUX')
+    let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\" " Vertical bar in insert mode
+    let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\" " Block in normal mode
+else
     let &t_SI = "\<ESC>]50;CursorShape=1\x7" " Vertical bar in insert mode
     let &t_EI = "\<ESC>]50;CursorShape=0\x7" " Block in normal mode
 endif
@@ -70,8 +81,6 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
-nnoremap <S-j> 15jz.
-nnoremap <S-k> 15kz.
 nnoremap <leader>q @q
 vnoremap <leader>r "y:s/\<\>//g<left><left><left><left><left>
 inoremap fj <ESC>
@@ -163,3 +172,29 @@ let g:syntastic_check_on_wq = 0
 let g:livepreview_previewer = 'open -a skim'
 "autocmd BufEnter * set updatetime=1000
 set updatetime=1000
+
+"Rainbow parentheses
+
+let g:rbpt_colorpairs = [
+    \ ['brown',       'RoyalBlue3'],
+    \ ['Darkblue',    'SeaGreen3'],
+    \ ['darkgray',    'DarkOrchid3'],
+    \ ['darkgreen',   'firebrick3'],
+    \ ['darkcyan',    'RoyalBlue3'],
+    \ ['darkred',     'SeaGreen3'],
+    \ ['darkmagenta', 'DarkOrchid3'],
+    \ ['brown',       'firebrick3'],
+    \ ['gray',        'RoyalBlue3'],
+    \ ['black',       'SeaGreen3'],
+    \ ['darkmagenta', 'DarkOrchid3'],
+    \ ['Darkblue',    'firebrick3'],
+    \ ['darkgreen',   'RoyalBlue3'],
+    \ ['darkcyan',    'SeaGreen3'],
+    \ ['darkred',     'DarkOrchid3'],
+    \ ['red',         'firebrick3'],
+    \ ]
+
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
