@@ -5091,3 +5091,593 @@ time 1501112707
 old [description:"Write significance calculator" entry:"1501020809" modified:"1501020809" project:"Loosen" status:"pending" tags:"Cas" uuid:"86799799-0086-4156-af80-b51b62cdcd48"]
 new [description:"Write significance calculator" entry:"1501020809" modified:"1501112707" project:"Loosen" start:"1501112707" status:"pending" tags:"Cas" uuid:"86799799-0086-4156-af80-b51b62cdcd48"]
 ---
+time 1501134297
+old [description:"Write significance calculator" entry:"1501020809" modified:"1501112707" project:"Loosen" start:"1501112707" status:"pending" tags:"Cas" uuid:"86799799-0086-4156-af80-b51b62cdcd48"]
+new [description:"Write significance calculator" entry:"1501020809" modified:"1501134297" project:"Loosen" status:"pending" tags:"Cas" uuid:"86799799-0086-4156-af80-b51b62cdcd48"]
+---
+time 1501134344
+old [annotation_1500932756:"still need to fix scram errors" annotation_1501012146:"Something is wrong with the test dataset Li made" description:"Produce cascade trees to optimize loose cuts" entry:"1500566150" modified:"1501012153" project:"Loosen" status:"pending" tags:"Cas" uuid:"c60a3cf6-a75d-4cda-a027-8f083e23836f"]
+new [annotation_1500932756:"still need to fix scram errors" annotation_1501012146:"Something is wrong with the test dataset Li made" description:"Produce cascade trees to optimize loose cuts" entry:"1500566150" modified:"1501134344" project:"Loosen" start:"1501134344" status:"pending" tags:"Cas" uuid:"c60a3cf6-a75d-4cda-a027-8f083e23836f"]
+---
+time 1501137903
+old [annotation_1500932756:"still need to fix scram errors" annotation_1501012146:"Something is wrong with the test dataset Li made" description:"Produce cascade trees to optimize loose cuts" entry:"1500566150" modified:"1501134344" project:"Loosen" start:"1501134344" status:"pending" tags:"Cas" uuid:"c60a3cf6-a75d-4cda-a027-8f083e23836f"]
+new [annotation_1500932756:"still need to fix scram errors" annotation_1501012146:"Something is wrong with the test dataset Li made" description:"Produce cascade trees to optimize loose cuts" entry:"1500566150" modified:"1501137903" project:"Loosen" status:"pending" tags:"Cas" uuid:"c60a3cf6-a75d-4cda-a027-8f083e23836f"]
+---
+time 1501186948
+new [description:"Take supplements" due:"1501261200" entry:"1501186947" imask:"38.000000" modified:"1501099206" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"waiting" tags:"meds" until:"1514786399" uuid:"cf947bcd-18fe-4ed9-a647-aefe0e36c62b" wait:"1501218000"]
+---
+time 1501186948
+old [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++WW" modified:"1501099206" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+new [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++WWW" modified:"1501186948" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+---
+time 1501186952
+old [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"++++++++++++++++++++++++WW" modified:"1501112683" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+new [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"+++++++++++++++++++++++++W" modified:"1501186952" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+---
+time 1501186952
+old [description:"Fill out time sheet" due:"1501107000" entry:"1501020706" imask:"24.000000" modified:"1500959123" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"pending" tags:"bureau" until:"1530421200" uuid:"808c2348-e215-4a37-a5b8-6df256e30afe"]
+new [description:"Fill out time sheet" due:"1501107000" end:"1501186952" entry:"1501020706" imask:"24.000000" modified:"1501186952" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"completed" tags:"bureau" until:"1530421200" uuid:"808c2348-e215-4a37-a5b8-6df256e30afe"]
+---
+time 1501186969
+old [annotation_1500932756:"still need to fix scram errors" annotation_1501012146:"Something is wrong with the test dataset Li made" description:"Produce cascade trees to optimize loose cuts" entry:"1500566150" modified:"1501137903" project:"Loosen" status:"pending" tags:"Cas" uuid:"c60a3cf6-a75d-4cda-a027-8f083e23836f"]
+new [annotation_1500932756:"still need to fix scram errors" annotation_1501012146:"Something is wrong with the test dataset Li made" description:"Produce cascade trees to optimize loose cuts" entry:"1500566150" modified:"1501186969" project:"Loosen" start:"1501186969" status:"pending" tags:"Cas" uuid:"c60a3cf6-a75d-4cda-a027-8f083e23836f"]
+---
+time 1501190258
+old [annotation_1500932756:"still need to fix scram errors" annotation_1501012146:"Something is wrong with the test dataset Li made" description:"Produce cascade trees to optimize loose cuts" entry:"1500566150" modified:"1501186969" project:"Loosen" start:"1501186969" status:"pending" tags:"Cas" uuid:"c60a3cf6-a75d-4cda-a027-8f083e23836f"]
+new [annotation_1500932756:"still need to fix scram errors" annotation_1501012146:"Something is wrong with the test dataset Li made" description:"Produce cascade trees to optimize loose cuts" entry:"1500566150" modified:"1501190258" project:"Loosen" status:"pending" tags:"Cas" uuid:"c60a3cf6-a75d-4cda-a027-8f083e23836f"]
+---
+time 1501190267
+old [description:"Write significance calculator" entry:"1501020809" modified:"1501134297" project:"Loosen" status:"pending" tags:"Cas" uuid:"86799799-0086-4156-af80-b51b62cdcd48"]
+new [description:"Write significance calculator" entry:"1501020809" modified:"1501190267" project:"Loosen" start:"1501190267" status:"pending" tags:"Cas" uuid:"86799799-0086-4156-af80-b51b62cdcd48"]
+---
+time 1501225295
+new [description:"Vitamin D" due:"1501822799" entry:"1501225295" imask:"6.000000" modified:"1500613933" parent:"e5a7120b-3f56-4590-a261-8d673fb2eb58" recur:"weekly" status:"waiting" tags:"meds" until:"1506747600" uuid:"a2dfc091-e16f-4fe9-b736-34fc1273c35e" wait:"1501736400"]
+---
+time 1501225295
+old [description:"Vitamin D" due:"1498193999" entry:"1497831229" mask:"+++++W" modified:"1500613933" recur:"weekly" status:"recurring" tags:"meds" until:"1506747600" uuid:"e5a7120b-3f56-4590-a261-8d673fb2eb58" wait:"1498107600"]
+new [description:"Vitamin D" due:"1498193999" entry:"1497831229" mask:"+++++WW" modified:"1501225295" recur:"weekly" status:"recurring" tags:"meds" until:"1506747600" uuid:"e5a7120b-3f56-4590-a261-8d673fb2eb58" wait:"1498107600"]
+---
+time 1501225295
+new [description:"Fill out time sheet" due:"1501279800" entry:"1501225295" imask:"26.000000" modified:"1501186952" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"waiting" tags:"bureau" until:"1530421200" uuid:"3cafd35d-6a86-46c6-9f20-e538bcaf4303" wait:"1501218000"]
+---
+time 1501225295
+old [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"+++++++++++++++++++++++++W" modified:"1501186952" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+new [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"+++++++++++++++++++++++++WW" modified:"1501225295" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+---
+time 1501264846
+new [description:"Take supplements" due:"1501347600" entry:"1501264846" imask:"39.000000" modified:"1501186948" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"waiting" tags:"meds" until:"1514786399" uuid:"63e83799-72b5-4a40-9feb-f2824a7279e9" wait:"1501304400"]
+---
+time 1501264846
+old [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++WWW" modified:"1501186948" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+new [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++WWWW" modified:"1501264846" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+---
+time 1501264851
+old [description:"Write significance calculator" entry:"1501020809" modified:"1501190267" project:"Loosen" start:"1501190267" status:"pending" tags:"Cas" uuid:"86799799-0086-4156-af80-b51b62cdcd48"]
+new [description:"Write significance calculator" entry:"1501020809" modified:"1501264851" project:"Loosen" status:"pending" tags:"Cas" uuid:"86799799-0086-4156-af80-b51b62cdcd48"]
+---
+time 1501265900
+old [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"+++++++++++++++++++++++++WW" modified:"1501225295" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+new [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"++++++++++++++++++++++++++W" modified:"1501265900" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+---
+time 1501265900
+old [description:"Fill out time sheet" due:"1501193400" entry:"1501112683" imask:"25.000000" modified:"1501020707" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"pending" tags:"bureau" until:"1530421200" uuid:"98b80d7a-ac96-49d3-b71d-4f6a178a1039"]
+new [description:"Fill out time sheet" due:"1501193400" end:"1501265900" entry:"1501112683" imask:"25.000000" modified:"1501265900" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"completed" tags:"bureau" until:"1530421200" uuid:"98b80d7a-ac96-49d3-b71d-4f6a178a1039"]
+---
+time 1501265904
+old [description:"Wednesday meeting" due:"1499871600" entry:"1499724318" mask:"++-W" modified:"1501099206" recur:"weekly" status:"recurring" tags:"bureau" uuid:"8d702974-4b97-45b8-8edb-25d8de8ee51a" wait:"1499749200"]
+new [description:"Wednesday meeting" due:"1499871600" entry:"1499724318" mask:"+++W" modified:"1501265904" recur:"weekly" status:"recurring" tags:"bureau" uuid:"8d702974-4b97-45b8-8edb-25d8de8ee51a" wait:"1499749200"]
+---
+time 1501265904
+old [description:"Wednesday meeting" due:"1501218000" entry:"1500492420" imask:"2.000000" modified:"1501018942" parent:"8d702974-4b97-45b8-8edb-25d8de8ee51a" recur:"weekly" status:"pending" tags:"bureau" uuid:"3042ea89-5b93-43ea-b361-713f74d14729"]
+new [description:"Wednesday meeting" due:"1501218000" end:"1501265904" entry:"1500492420" imask:"2.000000" modified:"1501265904" parent:"8d702974-4b97-45b8-8edb-25d8de8ee51a" recur:"weekly" status:"completed" tags:"bureau" uuid:"3042ea89-5b93-43ea-b361-713f74d14729"]
+---
+time 1501265989
+new [description:"Look at dataset issue" entry:"1501265989" modified:"1501265989" project:"Loosen" status:"pending" tags:"Cas" uuid:"8c52998b-5f85-4e8d-9213-43861f98d24a"]
+---
+time 1501266015
+new [description:"Fix plot bug" entry:"1501266015" modified:"1501266015" project:"Loosen" status:"pending" tags:"Cas" uuid:"6a2c38a1-e9d1-4fab-81b1-5c5f8ca0315a"]
+---
+time 1501266058
+new [description:"Extend v2 to higher pT" entry:"1501266058" modified:"1501266058" project:"Ksla" status:"pending" tags:"ksla" uuid:"75e2332a-0147-4f18-9852-9e7f68298618"]
+---
+time 1501266082
+old [description:"Extend v2 to higher pT" entry:"1501266058" modified:"1501266058" project:"Ksla" status:"pending" tags:"ksla" uuid:"75e2332a-0147-4f18-9852-9e7f68298618"]
+new [annotation_1501266082:"May have to consider centrality later on..." description:"Extend v2 to higher pT" entry:"1501266058" modified:"1501266082" project:"Ksla" status:"pending" tags:"ksla" uuid:"75e2332a-0147-4f18-9852-9e7f68298618"]
+---
+time 1501266109
+new [description:"Compare significance Hong's cuts and Wei's cuts" entry:"1501266109" modified:"1501266109" project:"Loosen" status:"pending" tags:"Cas" uuid:"bf79fe22-ecda-4d6e-971d-3c552f7ab8b4"]
+---
+time 1501266134
+new [description:"Omega cuts 16-013" entry:"1501266134" modified:"1501266134" project:"Loosen" status:"pending" tags:"Cas" uuid:"c0255d06-1584-4fc1-a173-c0f3f7854ad7"]
+---
+time 1501266211
+old [description:"Look at dataset issue" entry:"1501265989" modified:"1501265989" project:"Loosen" status:"pending" tags:"Cas" uuid:"8c52998b-5f85-4e8d-9213-43861f98d24a"]
+new [description:"Look at dataset issue" due:"1501279200" entry:"1501265989" modified:"1501266211" project:"Loosen" status:"pending" tags:"Cas" uuid:"8c52998b-5f85-4e8d-9213-43861f98d24a"]
+---
+time 1501266212
+old [description:"Fix plot bug" entry:"1501266015" modified:"1501266015" project:"Loosen" status:"pending" tags:"Cas" uuid:"6a2c38a1-e9d1-4fab-81b1-5c5f8ca0315a"]
+new [description:"Fix plot bug" due:"1501279200" entry:"1501266015" modified:"1501266212" project:"Loosen" status:"pending" tags:"Cas" uuid:"6a2c38a1-e9d1-4fab-81b1-5c5f8ca0315a"]
+---
+time 1501266212
+old [description:"Compare significance Hong's cuts and Wei's cuts" entry:"1501266109" modified:"1501266109" project:"Loosen" status:"pending" tags:"Cas" uuid:"bf79fe22-ecda-4d6e-971d-3c552f7ab8b4"]
+new [description:"Compare significance Hong's cuts and Wei's cuts" due:"1501279200" entry:"1501266109" modified:"1501266212" project:"Loosen" status:"pending" tags:"Cas" uuid:"bf79fe22-ecda-4d6e-971d-3c552f7ab8b4"]
+---
+time 1501269379
+old [description:"Look at dataset issue" due:"1501279200" entry:"1501265989" modified:"1501266211" project:"Loosen" status:"pending" tags:"Cas" uuid:"8c52998b-5f85-4e8d-9213-43861f98d24a"]
+new [description:"Look at dataset issue" due:"1501279200" entry:"1501265989" modified:"1501269379" project:"Loosen" start:"1501269379" status:"pending" tags:"Cas" uuid:"8c52998b-5f85-4e8d-9213-43861f98d24a"]
+---
+time 1501272164
+old [description:"Look at dataset issue" due:"1501279200" entry:"1501265989" modified:"1501269379" project:"Loosen" start:"1501269379" status:"pending" tags:"Cas" uuid:"8c52998b-5f85-4e8d-9213-43861f98d24a"]
+new [description:"Look at dataset issue" due:"1501279200" entry:"1501265989" modified:"1501272164" project:"Loosen" status:"pending" tags:"Cas" uuid:"8c52998b-5f85-4e8d-9213-43861f98d24a"]
+---
+time 1501272172
+old [description:"Look at dataset issue" due:"1501279200" entry:"1501265989" modified:"1501272164" project:"Loosen" status:"pending" tags:"Cas" uuid:"8c52998b-5f85-4e8d-9213-43861f98d24a"]
+new [annotation_1501272172:"Same issue" description:"Look at dataset issue" due:"1501279200" entry:"1501265989" modified:"1501272172" project:"Loosen" status:"pending" tags:"Cas" uuid:"8c52998b-5f85-4e8d-9213-43861f98d24a"]
+---
+time 1501272228
+old [description:"Fix plot bug" due:"1501279200" entry:"1501266015" modified:"1501266212" project:"Loosen" status:"pending" tags:"Cas" uuid:"6a2c38a1-e9d1-4fab-81b1-5c5f8ca0315a"]
+new [description:"Fix plot bug" due:"1501279200" entry:"1501266015" modified:"1501272228" project:"Loosen" start:"1501272228" status:"pending" tags:"Cas" uuid:"6a2c38a1-e9d1-4fab-81b1-5c5f8ca0315a"]
+---
+time 1501343549
+new [description:"Watch TMITHC" due:"1501909199" entry:"1501343549" imask:"4.000000" modified:"1500700009" parent:"5d038301-eee1-465b-91ca-2f51f6a3e9fc" recur:"weekly" status:"waiting" tags:"TV" until:"1504760400" uuid:"b17e0ec1-e1ef-462e-9f6e-da1166023ae3" wait:"1501822800"]
+---
+time 1501343549
+old [description:"Watch TMITHC" due:"1499489999" entry:"1498892176" mask:"+++W" modified:"1500700009" recur:"weekly" status:"recurring" tags:"TV" until:"1504760400" uuid:"5d038301-eee1-465b-91ca-2f51f6a3e9fc" wait:"1499403600"]
+new [description:"Watch TMITHC" due:"1499489999" entry:"1498892176" mask:"+++WW" modified:"1501343549" recur:"weekly" status:"recurring" tags:"TV" until:"1504760400" uuid:"5d038301-eee1-465b-91ca-2f51f6a3e9fc" wait:"1499403600"]
+---
+time 1501343550
+new [description:"Fill out time sheet" due:"1501366200" entry:"1501343549" imask:"27.000000" modified:"1501265900" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"waiting" tags:"bureau" until:"1530421200" uuid:"4097ab92-3692-4744-b64c-213171e4a96f" wait:"1501304400"]
+---
+time 1501343550
+old [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"++++++++++++++++++++++++++W" modified:"1501265900" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+new [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"++++++++++++++++++++++++++WW" modified:"1501343550" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+---
+time 1501343559
+old [annotation_1501272172:"Same issue" description:"Look at dataset issue" due:"1501279200" entry:"1501265989" modified:"1501272172" project:"Loosen" status:"pending" tags:"Cas" uuid:"8c52998b-5f85-4e8d-9213-43861f98d24a"]
+new [annotation_1501272172:"Same issue" description:"Look at dataset issue" due:"1501279200" end:"1501343559" entry:"1501265989" modified:"1501343559" project:"Loosen" status:"completed" tags:"Cas" uuid:"8c52998b-5f85-4e8d-9213-43861f98d24a"]
+---
+time 1501343588
+old [description:"Compare significance Hong's cuts and Wei's cuts" due:"1501279200" entry:"1501266109" modified:"1501266212" project:"Loosen" status:"pending" tags:"Cas" uuid:"bf79fe22-ecda-4d6e-971d-3c552f7ab8b4"]
+new [description:"due tomorrow" due:"1501279200" entry:"1501266109" modified:"1501343588" project:"Loosen" status:"pending" tags:"Cas" uuid:"bf79fe22-ecda-4d6e-971d-3c552f7ab8b4"]
+---
+time 1501343594
+old [description:"Fix plot bug" due:"1501279200" entry:"1501266015" modified:"1501272228" project:"Loosen" start:"1501272228" status:"pending" tags:"Cas" uuid:"6a2c38a1-e9d1-4fab-81b1-5c5f8ca0315a"]
+new [description:"Fix plot bug" due:"1501279200" end:"1501343594" entry:"1501266015" modified:"1501343594" project:"Loosen" status:"completed" tags:"Cas" uuid:"6a2c38a1-e9d1-4fab-81b1-5c5f8ca0315a"]
+---
+time 1501343667
+old [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"++++++++++++++++++++++++++WW" modified:"1501343550" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+new [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"+++++++++++++++++++++++++++W" modified:"1501343667" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+---
+time 1501343667
+old [description:"Fill out time sheet" due:"1501279800" entry:"1501225295" imask:"26.000000" modified:"1501186952" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"pending" tags:"bureau" until:"1530421200" uuid:"3cafd35d-6a86-46c6-9f20-e538bcaf4303"]
+new [description:"Fill out time sheet" due:"1501279800" end:"1501343667" entry:"1501225295" imask:"26.000000" modified:"1501343667" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"completed" tags:"bureau" until:"1530421200" uuid:"3cafd35d-6a86-46c6-9f20-e538bcaf4303"]
+---
+time 1501343706
+old [description:"Omega cuts 16-013" entry:"1501266134" modified:"1501266134" project:"Loosen" status:"pending" tags:"Cas" uuid:"c0255d06-1584-4fc1-a173-c0f3f7854ad7"]
+new [description:"Compare significance Hong's cuts to Wei's cuts" due:"1501390800" entry:"1501266134" modified:"1501343706" project:"Loosen" status:"pending" tags:"Cas" uuid:"c0255d06-1584-4fc1-a173-c0f3f7854ad7"]
+---
+time 1501343750
+old [description:"due tomorrow" due:"1501279200" entry:"1501266109" modified:"1501343588" project:"Loosen" status:"pending" tags:"Cas" uuid:"bf79fe22-ecda-4d6e-971d-3c552f7ab8b4"]
+new [description:"due tomorrow" due:"1501279200" end:"1501343749" entry:"1501266109" modified:"1501343750" project:"Loosen" status:"deleted" tags:"Cas" uuid:"bf79fe22-ecda-4d6e-971d-3c552f7ab8b4"]
+---
+time 1501343808
+old [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"+++++++++++++++++++++++++++W" modified:"1501343667" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+new [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"++++++++++++++++++++++++++++" modified:"1501343808" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+---
+time 1501343808
+old [description:"Fill out time sheet" due:"1501366200" entry:"1501343549" imask:"27.000000" modified:"1501265900" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"pending" tags:"bureau" until:"1530421200" uuid:"4097ab92-3692-4744-b64c-213171e4a96f"]
+new [description:"Fill out time sheet" due:"1501366200" end:"1501343808" entry:"1501343549" imask:"27.000000" modified:"1501343808" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"completed" tags:"bureau" until:"1530421200" uuid:"4097ab92-3692-4744-b64c-213171e4a96f"]
+---
+time 1501474084
+new [description:"Check Facebook" due:"1501950600" entry:"1501474084" imask:"6.000000" modified:"1500763391" parent:"1dc4ebd9-c2ba-4107-b8b6-1d994cd01569" recur:"weekly" status:"waiting" tags:"Misc" uuid:"abccb281-c3a2-46f6-bca0-0ea00c6630e1" wait:"1501909200"]
+---
+time 1501474085
+old [description:"Check Facebook" due:"1498321800" entry:"1497830980" mask:"+++++W" modified:"1500763391" recur:"weekly" status:"recurring" tags:"Misc" uuid:"1dc4ebd9-c2ba-4107-b8b6-1d994cd01569" wait:"1498280400"]
+new [description:"Check Facebook" due:"1498321800" entry:"1497830980" mask:"+++++WW" modified:"1501474085" recur:"weekly" status:"recurring" tags:"Misc" uuid:"1dc4ebd9-c2ba-4107-b8b6-1d994cd01569" wait:"1498280400"]
+---
+time 1501474085
+new [description:"Take supplements" due:"1501434000" entry:"1501474085" imask:"40.000000" modified:"1501264846" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"waiting" tags:"meds" until:"1514786399" uuid:"a5dc833e-671b-41bf-b0d5-69b474fbbe1c" wait:"1501390800"]
+---
+time 1501474085
+new [description:"Take supplements" due:"1501520400" entry:"1501474085" imask:"41.000000" modified:"1501264846" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"waiting" tags:"meds" until:"1514786399" uuid:"037a2daa-ef23-4f61-a5b9-32816b9e6d62" wait:"1501477200"]
+---
+time 1501474085
+old [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++WWWW" modified:"1501264846" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+new [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++WWWWWW" modified:"1501474085" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+---
+time 1501474085
+new [description:"Fill out time sheet" due:"1501452600" entry:"1501474085" imask:"28.000000" modified:"1501343808" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"waiting" tags:"bureau" until:"1530421200" uuid:"c7260451-d533-4923-a254-86b172ac23be" wait:"1501390800"]
+---
+time 1501474085
+new [description:"Fill out time sheet" due:"1501539000" entry:"1501474085" imask:"29.000000" modified:"1501343808" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"waiting" tags:"bureau" until:"1530421200" uuid:"1a0f7a70-36e6-4332-872d-4f1fa11f4348" wait:"1501477200"]
+---
+time 1501474085
+old [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"++++++++++++++++++++++++++++" modified:"1501343808" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+new [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"++++++++++++++++++++++++++++WW" modified:"1501474085" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+---
+time 1501474109
+old [description:"Compare significance Hong's cuts to Wei's cuts" due:"1501390800" entry:"1501266134" modified:"1501343706" project:"Loosen" status:"pending" tags:"Cas" uuid:"c0255d06-1584-4fc1-a173-c0f3f7854ad7"]
+new [description:"Compare significance Hong's cuts to Wei's cuts" due:"1501477200" entry:"1501266134" modified:"1501474109" project:"Loosen" status:"pending" tags:"Cas" uuid:"c0255d06-1584-4fc1-a173-c0f3f7854ad7"]
+---
+time 1501474115
+old [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"++++++++++++++++++++++++++++WW" modified:"1501474085" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+new [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"+++++++++++++++++++++++++++++W" modified:"1501474115" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+---
+time 1501474115
+old [description:"Fill out time sheet" due:"1501452600" entry:"1501474085" imask:"28.000000" modified:"1501343808" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"pending" tags:"bureau" until:"1530421200" uuid:"c7260451-d533-4923-a254-86b172ac23be"]
+new [description:"Fill out time sheet" due:"1501452600" end:"1501474115" entry:"1501474085" imask:"28.000000" modified:"1501474115" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"completed" tags:"bureau" until:"1530421200" uuid:"c7260451-d533-4923-a254-86b172ac23be"]
+---
+time 1501474135
+old [description:"Vitamin D" due:"1498193999" entry:"1497831229" mask:"+++++WW" modified:"1501225295" recur:"weekly" status:"recurring" tags:"meds" until:"1506747600" uuid:"e5a7120b-3f56-4590-a261-8d673fb2eb58" wait:"1498107600"]
+new [description:"Vitamin D" due:"1498193999" entry:"1497831229" mask:"++++++W" modified:"1501474135" recur:"weekly" status:"recurring" tags:"meds" until:"1506747600" uuid:"e5a7120b-3f56-4590-a261-8d673fb2eb58" wait:"1498107600"]
+---
+time 1501474135
+old [description:"Vitamin D" due:"1501217999" entry:"1500613884" imask:"5.000000" modified:"1500016607" parent:"e5a7120b-3f56-4590-a261-8d673fb2eb58" recur:"weekly" status:"pending" tags:"meds" until:"1506747600" uuid:"1c0eb431-2219-447d-9590-42165e182972"]
+new [description:"Vitamin D" due:"1501217999" end:"1501474134" entry:"1500613884" imask:"5.000000" modified:"1501474135" parent:"e5a7120b-3f56-4590-a261-8d673fb2eb58" recur:"weekly" status:"completed" tags:"meds" until:"1506747600" uuid:"1c0eb431-2219-447d-9590-42165e182972"]
+---
+time 1501474135
+old [description:"Watch TMITHC" due:"1499489999" entry:"1498892176" mask:"+++WW" modified:"1501343549" recur:"weekly" status:"recurring" tags:"TV" until:"1504760400" uuid:"5d038301-eee1-465b-91ca-2f51f6a3e9fc" wait:"1499403600"]
+new [description:"Watch TMITHC" due:"1499489999" entry:"1498892176" mask:"++++W" modified:"1501474135" recur:"weekly" status:"recurring" tags:"TV" until:"1504760400" uuid:"5d038301-eee1-465b-91ca-2f51f6a3e9fc" wait:"1499403600"]
+---
+time 1501474135
+old [description:"Watch TMITHC" due:"1501304399" entry:"1500699973" imask:"3.000000" modified:"1500337696" parent:"5d038301-eee1-465b-91ca-2f51f6a3e9fc" recur:"weekly" status:"pending" tags:"TV" until:"1504760400" uuid:"cf130052-0122-4236-9a02-69b60bc81330"]
+new [description:"Watch TMITHC" due:"1501304399" end:"1501474135" entry:"1500699973" imask:"3.000000" modified:"1501474135" parent:"5d038301-eee1-465b-91ca-2f51f6a3e9fc" recur:"weekly" status:"completed" tags:"TV" until:"1504760400" uuid:"cf130052-0122-4236-9a02-69b60bc81330"]
+---
+time 1501474135
+old [description:"Check Facebook" due:"1498321800" entry:"1497830980" mask:"+++++WW" modified:"1501474085" recur:"weekly" status:"recurring" tags:"Misc" uuid:"1dc4ebd9-c2ba-4107-b8b6-1d994cd01569" wait:"1498280400"]
+new [description:"Check Facebook" due:"1498321800" entry:"1497830980" mask:"++++++W" modified:"1501474135" recur:"weekly" status:"recurring" tags:"Misc" uuid:"1dc4ebd9-c2ba-4107-b8b6-1d994cd01569" wait:"1498280400"]
+---
+time 1501474135
+old [description:"Check Facebook" due:"1501345800" entry:"1500763391" imask:"5.000000" modified:"1500700008" parent:"1dc4ebd9-c2ba-4107-b8b6-1d994cd01569" recur:"weekly" status:"pending" tags:"Misc" uuid:"27404313-f461-41b0-b50b-0924d99ba381"]
+new [description:"Check Facebook" due:"1501345800" end:"1501474135" entry:"1500763391" imask:"5.000000" modified:"1501474135" parent:"1dc4ebd9-c2ba-4107-b8b6-1d994cd01569" recur:"weekly" status:"completed" tags:"Misc" uuid:"27404313-f461-41b0-b50b-0924d99ba381"]
+---
+time 1501474135
+old [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++WWWWWW" modified:"1501474085" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+new [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"+++++++++++++++++++++++++++++++++++++WWWWW" modified:"1501474135" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+---
+time 1501474135
+old [description:"Take supplements" due:"1501088400" entry:"1501008158" imask:"36.000000" modified:"1500959123" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"pending" tags:"meds" until:"1514786399" uuid:"5146f260-205d-497b-bca4-e34694c7cdfa"]
+new [description:"Take supplements" due:"1501088400" end:"1501474135" entry:"1501008158" imask:"36.000000" modified:"1501474135" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"completed" tags:"meds" until:"1514786399" uuid:"5146f260-205d-497b-bca4-e34694c7cdfa"]
+---
+time 1501474135
+old [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"+++++++++++++++++++++++++++++++++++++WWWWW" modified:"1501474135" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+new [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++++WWWW" modified:"1501474135" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+---
+time 1501474135
+old [description:"Take supplements" due:"1501174800" entry:"1501099206" imask:"37.000000" modified:"1501018916" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"pending" tags:"meds" until:"1514786399" uuid:"eb803c12-c1b8-4bf4-a65f-8c516d12fc12"]
+new [description:"Take supplements" due:"1501174800" end:"1501474135" entry:"1501099206" imask:"37.000000" modified:"1501474135" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"completed" tags:"meds" until:"1514786399" uuid:"eb803c12-c1b8-4bf4-a65f-8c516d12fc12"]
+---
+time 1501474135
+old [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++++WWWW" modified:"1501474135" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+new [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"+++++++++++++++++++++++++++++++++++++++WWW" modified:"1501474135" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+---
+time 1501474135
+old [description:"Take supplements" due:"1501261200" entry:"1501186947" imask:"38.000000" modified:"1501099206" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"pending" tags:"meds" until:"1514786399" uuid:"cf947bcd-18fe-4ed9-a647-aefe0e36c62b"]
+new [description:"Take supplements" due:"1501261200" end:"1501474135" entry:"1501186947" imask:"38.000000" modified:"1501474135" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"completed" tags:"meds" until:"1514786399" uuid:"cf947bcd-18fe-4ed9-a647-aefe0e36c62b"]
+---
+time 1501474135
+old [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"+++++++++++++++++++++++++++++++++++++++WWW" modified:"1501474135" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+new [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++++++WW" modified:"1501474135" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+---
+time 1501474135
+old [description:"Take supplements" due:"1501347600" entry:"1501264846" imask:"39.000000" modified:"1501186948" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"pending" tags:"meds" until:"1514786399" uuid:"63e83799-72b5-4a40-9feb-f2824a7279e9"]
+new [description:"Take supplements" due:"1501347600" end:"1501474135" entry:"1501264846" imask:"39.000000" modified:"1501474135" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"completed" tags:"meds" until:"1514786399" uuid:"63e83799-72b5-4a40-9feb-f2824a7279e9"]
+---
+time 1501474141
+old [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++++++WW" modified:"1501474135" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+new [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"+++++++++++++++++++++++++++++++++++++++++W" modified:"1501474141" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+---
+time 1501474141
+old [description:"Take supplements" due:"1501434000" entry:"1501474085" imask:"40.000000" modified:"1501264846" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"pending" tags:"meds" until:"1514786399" uuid:"a5dc833e-671b-41bf-b0d5-69b474fbbe1c"]
+new [description:"Take supplements" due:"1501434000" end:"1501474141" entry:"1501474085" imask:"40.000000" modified:"1501474141" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"completed" tags:"meds" until:"1514786399" uuid:"a5dc833e-671b-41bf-b0d5-69b474fbbe1c"]
+---
+time 1501474162
+old [description:"Compare significance Hong's cuts to Wei's cuts" due:"1501477200" entry:"1501266134" modified:"1501474109" project:"Loosen" status:"pending" tags:"Cas" uuid:"c0255d06-1584-4fc1-a173-c0f3f7854ad7"]
+new [description:"Compare significance Hong's cuts to Wei's cuts" due:"1501527600" entry:"1501266134" modified:"1501474162" project:"Loosen" status:"pending" tags:"Cas" uuid:"c0255d06-1584-4fc1-a173-c0f3f7854ad7"]
+---
+time 1501474213
+old [annotation_1497839486:"There are 2 long blobs to respond to from a while back" description:"Respond to previous Julia blobs" entry:"1497839466" modified:"1501045953" status:"pending" tags:"Misc" uuid:"8a318165-d484-4106-8b0d-1c28b97967be"]
+new [annotation_1497839486:"There are 2 long blobs to respond to from a while back" description:"Respond to previous Julia blobs" entry:"1497839466" modified:"1501474213" start:"1501474213" status:"pending" tags:"Misc" uuid:"8a318165-d484-4106-8b0d-1c28b97967be"]
+---
+time 1501518581
+old [annotation_1497839486:"There are 2 long blobs to respond to from a while back" description:"Respond to previous Julia blobs" entry:"1497839466" modified:"1501474213" start:"1501474213" status:"pending" tags:"Misc" uuid:"8a318165-d484-4106-8b0d-1c28b97967be"]
+new [annotation_1497839486:"There are 2 long blobs to respond to from a while back" description:"Respond to previous Julia blobs" entry:"1497839466" modified:"1501518581" status:"pending" tags:"Misc" uuid:"8a318165-d484-4106-8b0d-1c28b97967be"]
+---
+time 1501518636
+old [description:"Vitamin D" due:"1498539599" entry:"1497885819" mask:"+++++W" modified:"1500959123" recur:"weekly" status:"recurring" tags:"meds" until:"1506747600" uuid:"150b0cc1-3f18-446c-a708-f02e78e5361a" wait:"1498453200"]
+new [description:"Vitamin D" due:"1498539599" entry:"1497885819" mask:"++++++" modified:"1501518636" recur:"weekly" status:"recurring" tags:"meds" until:"1506747600" uuid:"150b0cc1-3f18-446c-a708-f02e78e5361a" wait:"1498453200"]
+---
+time 1501518636
+old [description:"Vitamin D" due:"1501563599" entry:"1500959082" imask:"5.000000" modified:"1500394710" parent:"150b0cc1-3f18-446c-a708-f02e78e5361a" recur:"weekly" status:"pending" tags:"meds" until:"1506747600" uuid:"92a65b8d-56ce-4b26-8d2c-3cd15f3cceb2"]
+new [description:"Vitamin D" due:"1501563599" end:"1501518636" entry:"1500959082" imask:"5.000000" modified:"1501518636" parent:"150b0cc1-3f18-446c-a708-f02e78e5361a" recur:"weekly" status:"completed" tags:"meds" until:"1506747600" uuid:"92a65b8d-56ce-4b26-8d2c-3cd15f3cceb2"]
+---
+time 1501518636
+old [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"+++++++++++++++++++++++++++++++++++++++++W" modified:"1501474141" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+new [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++++++++" modified:"1501518636" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+---
+time 1501518636
+old [description:"Take supplements" due:"1501520400" entry:"1501474085" imask:"41.000000" modified:"1501264846" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"pending" tags:"meds" until:"1514786399" uuid:"037a2daa-ef23-4f61-a5b9-32816b9e6d62"]
+new [description:"Take supplements" due:"1501520400" end:"1501518636" entry:"1501474085" imask:"41.000000" modified:"1501518636" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"completed" tags:"meds" until:"1514786399" uuid:"037a2daa-ef23-4f61-a5b9-32816b9e6d62"]
+---
+time 1501518646
+old [description:"Write significance calculator" entry:"1501020809" modified:"1501264851" project:"Loosen" status:"pending" tags:"Cas" uuid:"86799799-0086-4156-af80-b51b62cdcd48"]
+new [description:"Write significance calculator" entry:"1501020809" modified:"1501518646" project:"Loosen" start:"1501518646" status:"pending" tags:"Cas" uuid:"86799799-0086-4156-af80-b51b62cdcd48"]
+---
+time 1501529007
+new [description:"Take supplements" due:"1501606800" entry:"1501529007" imask:"42.000000" modified:"1501518636" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"waiting" tags:"meds" until:"1514786399" uuid:"9f3dce89-77ad-4dfa-89a4-b555ce19a290" wait:"1501563600"]
+---
+time 1501529007
+old [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++++++++" modified:"1501518636" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+new [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++++++++W" modified:"1501529007" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+---
+time 1501548156
+new [description:"Fill out time sheet" due:"1501625400" entry:"1501548156" imask:"30.000000" modified:"1501474115" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"waiting" tags:"bureau" until:"1530421200" uuid:"a55af3b0-c80d-479f-9ce8-d52194e394ab" wait:"1501563600"]
+---
+time 1501548156
+old [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"+++++++++++++++++++++++++++++W" modified:"1501474115" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+new [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"+++++++++++++++++++++++++++++WW" modified:"1501548156" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+---
+time 1501548392
+old [description:"Write significance calculator" entry:"1501020809" modified:"1501518646" project:"Loosen" start:"1501518646" status:"pending" tags:"Cas" uuid:"86799799-0086-4156-af80-b51b62cdcd48"]
+new [description:"Write significance calculator" entry:"1501020809" modified:"1501548392" project:"Loosen" status:"pending" tags:"Cas" uuid:"86799799-0086-4156-af80-b51b62cdcd48"]
+---
+time 1501548397
+old [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"+++++++++++++++++++++++++++++WW" modified:"1501548156" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+new [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"++++++++++++++++++++++++++++++W" modified:"1501548397" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+---
+time 1501548397
+old [description:"Fill out time sheet" due:"1501539000" entry:"1501474085" imask:"29.000000" modified:"1501343808" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"pending" tags:"bureau" until:"1530421200" uuid:"1a0f7a70-36e6-4332-872d-4f1fa11f4348"]
+new [description:"Fill out time sheet" due:"1501539000" end:"1501548397" entry:"1501474085" imask:"29.000000" modified:"1501548397" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"completed" tags:"bureau" until:"1530421200" uuid:"1a0f7a70-36e6-4332-872d-4f1fa11f4348"]
+---
+time 1501560691
+new [description:"UTSW" entry:"1501560690" modified:"1501560690" status:"pending" tags:"Sec" uuid:"5ec938fb-9184-4e20-978c-36a1dd60106b"]
+---
+time 1501560716
+old [description:"UTSW" entry:"1501560690" modified:"1501560690" status:"pending" tags:"Sec" uuid:"5ec938fb-9184-4e20-978c-36a1dd60106b"]
+new [description:"UTSW" entry:"1501560690" modified:"1501560716" start:"1501560716" status:"pending" tags:"Sec" uuid:"5ec938fb-9184-4e20-978c-36a1dd60106b"]
+---
+time 1501601741
+new [description:"Vitamin D" due:"1502168399" entry:"1501601740" imask:"6.000000" modified:"1501518636" parent:"150b0cc1-3f18-446c-a708-f02e78e5361a" recur:"weekly" status:"waiting" tags:"meds" until:"1506747600" uuid:"4fb1bfe3-69da-4133-9f31-72d68c170a63" wait:"1502082000"]
+---
+time 1501601741
+old [description:"Vitamin D" due:"1498539599" entry:"1497885819" mask:"++++++" modified:"1501518636" recur:"weekly" status:"recurring" tags:"meds" until:"1506747600" uuid:"150b0cc1-3f18-446c-a708-f02e78e5361a" wait:"1498453200"]
+new [description:"Vitamin D" due:"1498539599" entry:"1497885819" mask:"++++++W" modified:"1501601741" recur:"weekly" status:"recurring" tags:"meds" until:"1506747600" uuid:"150b0cc1-3f18-446c-a708-f02e78e5361a" wait:"1498453200"]
+---
+time 1501601750
+old [description:"UTSW" entry:"1501560690" modified:"1501560716" start:"1501560716" status:"pending" tags:"Sec" uuid:"5ec938fb-9184-4e20-978c-36a1dd60106b"]
+new [description:"UTSW" entry:"1501560690" modified:"1501601750" status:"pending" tags:"Sec" uuid:"5ec938fb-9184-4e20-978c-36a1dd60106b"]
+---
+time 1501601779
+old [description:"Compare significance Hong's cuts to Wei's cuts" due:"1501527600" entry:"1501266134" modified:"1501474162" project:"Loosen" status:"pending" tags:"Cas" uuid:"c0255d06-1584-4fc1-a173-c0f3f7854ad7"]
+new [description:"Compare significance Hong's cuts to Wei's cuts" due:"1501527600" entry:"1501266134" modified:"1501601779" project:"Loosen" start:"1501601779" status:"pending" tags:"Cas" uuid:"c0255d06-1584-4fc1-a173-c0f3f7854ad7"]
+---
+time 1501614143
+new [description:"Check Facebook" due:"1502209800" entry:"1501614143" imask:"7.000000" modified:"1501008158" parent:"94b3e296-0399-4366-be27-759e97c08d4c" recur:"weekly" status:"waiting" tags:"Misc" uuid:"b079e936-c799-4a13-bdb4-600f802a98fb" wait:"1502168400"]
+---
+time 1501614143
+old [description:"Check Facebook" due:"1497976200" entry:"1497830926" mask:"++++++W" modified:"1501008158" recur:"weekly" status:"recurring" tags:"Misc" uuid:"94b3e296-0399-4366-be27-759e97c08d4c" wait:"1497934800"]
+new [description:"Check Facebook" due:"1497976200" entry:"1497830926" mask:"++++++WW" modified:"1501614143" recur:"weekly" status:"recurring" tags:"Misc" uuid:"94b3e296-0399-4366-be27-759e97c08d4c" wait:"1497934800"]
+---
+time 1501614144
+new [description:"Take supplements" due:"1501693200" entry:"1501614143" imask:"43.000000" modified:"1501529007" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"waiting" tags:"meds" until:"1514786399" uuid:"65a3e1c5-9d18-4edc-90c4-9e0261e2bac2" wait:"1501650000"]
+---
+time 1501614144
+old [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++++++++W" modified:"1501529007" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+new [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++++++++WW" modified:"1501614144" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+---
+time 1501614149
+old [description:"Compare significance Hong's cuts to Wei's cuts" due:"1501527600" entry:"1501266134" modified:"1501601779" project:"Loosen" start:"1501601779" status:"pending" tags:"Cas" uuid:"c0255d06-1584-4fc1-a173-c0f3f7854ad7"]
+new [description:"Compare significance Hong's cuts to Wei's cuts" due:"1501527600" entry:"1501266134" modified:"1501614149" project:"Loosen" status:"pending" tags:"Cas" uuid:"c0255d06-1584-4fc1-a173-c0f3f7854ad7"]
+---
+time 1501614151
+old [description:"Compare significance Hong's cuts to Wei's cuts" due:"1501527600" entry:"1501266134" modified:"1501614149" project:"Loosen" status:"pending" tags:"Cas" uuid:"c0255d06-1584-4fc1-a173-c0f3f7854ad7"]
+new [description:"Compare significance Hong's cuts to Wei's cuts" due:"1501527600" end:"1501614151" entry:"1501266134" modified:"1501614151" project:"Loosen" status:"completed" tags:"Cas" uuid:"c0255d06-1584-4fc1-a173-c0f3f7854ad7"]
+---
+time 1501614166
+old [description:"Write significance calculator" entry:"1501020809" modified:"1501548392" project:"Loosen" status:"pending" tags:"Cas" uuid:"86799799-0086-4156-af80-b51b62cdcd48"]
+new [description:"Write significance calculator" end:"1501614166" entry:"1501020809" modified:"1501614166" project:"Loosen" status:"completed" tags:"Cas" uuid:"86799799-0086-4156-af80-b51b62cdcd48"]
+---
+time 1501614209
+old [annotation_1500932756:"still need to fix scram errors" annotation_1501012146:"Something is wrong with the test dataset Li made" description:"Produce cascade trees to optimize loose cuts" entry:"1500566150" modified:"1501190258" project:"Loosen" status:"pending" tags:"Cas" uuid:"c60a3cf6-a75d-4cda-a027-8f083e23836f"]
+new [annotation_1500932756:"still need to fix scram errors" annotation_1501012146:"Something is wrong with the test dataset Li made" description:"Produce cascade trees to optimize loose cuts" end:"1501614209" entry:"1500566150" modified:"1501614209" project:"Loosen" status:"completed" tags:"Cas" uuid:"c60a3cf6-a75d-4cda-a027-8f083e23836f"]
+---
+time 1501614224
+new [description:"Produce Omega filter" entry:"1501614224" modified:"1501614224" project:"Loosen" status:"pending" tags:"Cas" uuid:"1047e493-c100-4ff4-b80b-6df40ce78e40"]
+---
+time 1501614287
+new [description:"Determine Omega cuts from 16-013" entry:"1501614287" modified:"1501614287" project:"Loosen" status:"pending" tags:"Cas" uuid:"199c713f-f881-40a2-a82b-729097f5462c"]
+---
+time 1501614303
+old [description:"Produce Omega filter" entry:"1501614224" modified:"1501614224" project:"Loosen" status:"pending" tags:"Cas" uuid:"1047e493-c100-4ff4-b80b-6df40ce78e40"]
+new [depends:"199c713f-f881-40a2-a82b-729097f5462c" description:"Produce Omega filter" entry:"1501614224" modified:"1501614303" project:"Loosen" status:"pending" tags:"Cas" uuid:"1047e493-c100-4ff4-b80b-6df40ce78e40"]
+---
+time 1501614344
+old [annotation_1501266082:"May have to consider centrality later on..." description:"Extend v2 to higher pT" entry:"1501266058" modified:"1501266082" project:"Ksla" status:"pending" tags:"ksla" uuid:"75e2332a-0147-4f18-9852-9e7f68298618"]
+new [annotation_1501266082:"May have to consider centrality later on..." annotation_1501614344:"go up to 10 GeV and then make a bin from 10-20 GeV" description:"Extend v2 to higher pT" entry:"1501266058" modified:"1501614344" project:"Ksla" status:"pending" tags:"ksla" uuid:"75e2332a-0147-4f18-9852-9e7f68298618"]
+---
+time 1501614631
+new [description:"Make some peaks for the higher pT bins" entry:"1501614630" modified:"1501614630" project:"Loosen" status:"pending" tags:"Cas" uuid:"3b637325-e8c2-4a29-9d45-2faa6d4e9518"]
+---
+time 1501614659
+old [annotation_1501266082:"May have to consider centrality later on..." annotation_1501614344:"go up to 10 GeV and then make a bin from 10-20 GeV" description:"Extend v2 to higher pT" entry:"1501266058" modified:"1501614344" project:"Ksla" status:"pending" tags:"ksla" uuid:"75e2332a-0147-4f18-9852-9e7f68298618"]
+new [annotation_1501266082:"May have to consider centrality later on..." annotation_1501614344:"go up to 10 GeV and then make a bin from 10-20 GeV" depends:"3b637325-e8c2-4a29-9d45-2faa6d4e9518" description:"Extend v2 to higher pT" entry:"1501266058" modified:"1501614659" project:"Ksla" status:"pending" tags:"ksla" uuid:"75e2332a-0147-4f18-9852-9e7f68298618"]
+---
+time 1501621062
+old [description:"Get\/look for v3 data from Zhenyu" entry:"1500566600" modified:"1500566600" project:"Ksla" status:"pending" tags:"ksla" uuid:"6ab7a844-38c5-4f95-9636-3fce007d755c"]
+new [description:"Get\/look for v3 data from Zhenyu" end:"1501621062" entry:"1500566600" modified:"1501621062" project:"Ksla" status:"completed" tags:"ksla" uuid:"6ab7a844-38c5-4f95-9636-3fce007d755c"]
+---
+time 1501621157
+new [description:"Incorporate 0.2-0.4 GeV pT bin again" entry:"1501621157" modified:"1501621157" project:"Loosen" status:"pending" tags:"Cas" uuid:"57876e9a-7f73-4f2b-87a1-714ca744f347"]
+---
+time 1501623434
+old [description:"calculate v3 for V0s" entry:"1500584559" modified:"1500584570" project:"Ksla" status:"pending" tags:"ksla" uuid:"1da3feeb-b577-471c-94d8-e0fb6cd37236"]
+new [annotation_1501623434:"adding v3 output in v0ptbinv2fit:1115" description:"calculate v3 for V0s" entry:"1500584559" modified:"1501623434" project:"Ksla" status:"pending" tags:"ksla" uuid:"1da3feeb-b577-471c-94d8-e0fb6cd37236"]
+---
+time 1501673658
+new [description:"Fill out time sheet" due:"1501711800" entry:"1501673658" imask:"31.000000" modified:"1501548397" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"waiting" tags:"bureau" until:"1530421200" uuid:"f6e8dc14-117d-4d54-b458-afc05d5ec7db" wait:"1501650000"]
+---
+time 1501673659
+old [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"++++++++++++++++++++++++++++++W" modified:"1501548397" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+new [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"++++++++++++++++++++++++++++++WW" modified:"1501673659" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+---
+time 1501673668
+old [annotation_1501623434:"adding v3 output in v0ptbinv2fit:1115" description:"calculate v3 for V0s" entry:"1500584559" modified:"1501623434" project:"Ksla" status:"pending" tags:"ksla" uuid:"1da3feeb-b577-471c-94d8-e0fb6cd37236"]
+new [annotation_1501623434:"adding v3 output in v0ptbinv2fit:1115" description:"calculate v3 for V0s" entry:"1500584559" modified:"1501673668" project:"Ksla" start:"1501673668" status:"pending" tags:"ksla" uuid:"1da3feeb-b577-471c-94d8-e0fb6cd37236"]
+---
+time 1501690528
+new [description:"Wednesday meeting" due:"1502290800" entry:"1501690528" imask:"4.000000" modified:"1501265904" parent:"8d702974-4b97-45b8-8edb-25d8de8ee51a" recur:"weekly" status:"waiting" tags:"bureau" uuid:"62d71243-6c17-4510-92d1-a52f44a9f4f0" wait:"1502168400"]
+---
+time 1501690528
+old [description:"Wednesday meeting" due:"1499871600" entry:"1499724318" mask:"+++W" modified:"1501265904" recur:"weekly" status:"recurring" tags:"bureau" uuid:"8d702974-4b97-45b8-8edb-25d8de8ee51a" wait:"1499749200"]
+new [description:"Wednesday meeting" due:"1499871600" entry:"1499724318" mask:"+++WW" modified:"1501690528" recur:"weekly" status:"recurring" tags:"bureau" uuid:"8d702974-4b97-45b8-8edb-25d8de8ee51a" wait:"1499749200"]
+---
+time 1501690538
+old [description:"Wednesday meeting" due:"1499871600" entry:"1499724318" mask:"+++WW" modified:"1501690528" recur:"weekly" status:"recurring" tags:"bureau" uuid:"8d702974-4b97-45b8-8edb-25d8de8ee51a" wait:"1499749200"]
+new [description:"Wednesday meeting" due:"1499871600" entry:"1499724318" mask:"++++W" modified:"1501690538" recur:"weekly" status:"recurring" tags:"bureau" uuid:"8d702974-4b97-45b8-8edb-25d8de8ee51a" wait:"1499749200"]
+---
+time 1501690538
+old [description:"Wednesday meeting" due:"1501686000" entry:"1501099206" imask:"3.000000" modified:"1501018942" parent:"8d702974-4b97-45b8-8edb-25d8de8ee51a" recur:"weekly" status:"pending" tags:"bureau" uuid:"c1c86acc-4060-487d-9979-1d5d1e3808f7"]
+new [description:"Wednesday meeting" due:"1501686000" end:"1501690538" entry:"1501099206" imask:"3.000000" modified:"1501690538" parent:"8d702974-4b97-45b8-8edb-25d8de8ee51a" recur:"weekly" status:"completed" tags:"bureau" uuid:"c1c86acc-4060-487d-9979-1d5d1e3808f7"]
+---
+time 1501691052
+old [annotation_1501623434:"adding v3 output in v0ptbinv2fit:1115" description:"calculate v3 for V0s" entry:"1500584559" modified:"1501673668" project:"Ksla" start:"1501673668" status:"pending" tags:"ksla" uuid:"1da3feeb-b577-471c-94d8-e0fb6cd37236"]
+new [annotation_1501623434:"adding v3 output in v0ptbinv2fit:1115" description:"calculate v3 for V0s" entry:"1500584559" modified:"1501691052" project:"Ksla" status:"pending" tags:"ksla" uuid:"1da3feeb-b577-471c-94d8-e0fb6cd37236"]
+---
+time 1501691076
+old [annotation_1501623434:"adding v3 output in v0ptbinv2fit:1115" description:"calculate v3 for V0s" entry:"1500584559" modified:"1501691052" project:"Ksla" status:"pending" tags:"ksla" uuid:"1da3feeb-b577-471c-94d8-e0fb6cd37236"]
+new [annotation_1501623434:"adding v3 output in v0ptbinv2fit:1115" description:"calculate v3 for V0s" end:"1501691076" entry:"1500584559" modified:"1501691076" project:"Ksla" status:"completed" tags:"ksla" uuid:"1da3feeb-b577-471c-94d8-e0fb6cd37236"]
+---
+time 1501691076
+old [depends:"1da3feeb-b577-471c-94d8-e0fb6cd37236,6ab7a844-38c5-4f95-9636-3fce007d755c" description:"Make v3 plots" entry:"1500584629" modified:"1500584731" project:"Ksla" status:"pending" tags:"ksla" uuid:"1bb34e8d-c1bb-4f80-a4c7-bda9270a4025"]
+new [depends:"1da3feeb-b577-471c-94d8-e0fb6cd37236,6ab7a844-38c5-4f95-9636-3fce007d755c" description:"Make v3 plots" end:"1501691076" entry:"1500584629" modified:"1501691076" project:"Ksla" status:"completed" tags:"ksla" uuid:"1bb34e8d-c1bb-4f80-a4c7-bda9270a4025"]
+---
+time 1501691151
+old [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"++++++++++++++++++++++++++++++WW" modified:"1501673659" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+new [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"+++++++++++++++++++++++++++++++W" modified:"1501691151" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+---
+time 1501691151
+old [description:"Fill out time sheet" due:"1501625400" entry:"1501548156" imask:"30.000000" modified:"1501474115" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"pending" tags:"bureau" until:"1530421200" uuid:"a55af3b0-c80d-479f-9ce8-d52194e394ab"]
+new [description:"Fill out time sheet" due:"1501625400" end:"1501691151" entry:"1501548156" imask:"30.000000" modified:"1501691151" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"completed" tags:"bureau" until:"1530421200" uuid:"a55af3b0-c80d-479f-9ce8-d52194e394ab"]
+---
+time 1501691151
+old [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"+++++++++++++++++++++++++++++++W" modified:"1501691151" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+new [description:"Fill out time sheet" due:"1499033400" entry:"1498971598" mask:"++++++++++++++++++++++++++++++++" modified:"1501691151" recur:"daily" status:"recurring" tags:"bureau" until:"1530421200" uuid:"c2b6375c-929e-4932-ab9b-4bb5642555aa" wait:"1498971600"]
+---
+time 1501691151
+old [description:"Fill out time sheet" due:"1501711800" entry:"1501673658" imask:"31.000000" modified:"1501548397" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"pending" tags:"bureau" until:"1530421200" uuid:"f6e8dc14-117d-4d54-b458-afc05d5ec7db"]
+new [description:"Fill out time sheet" due:"1501711800" end:"1501691151" entry:"1501673658" imask:"31.000000" modified:"1501691151" parent:"c2b6375c-929e-4932-ab9b-4bb5642555aa" recur:"daily" status:"completed" tags:"bureau" until:"1530421200" uuid:"f6e8dc14-117d-4d54-b458-afc05d5ec7db"]
+---
+time 1501691234
+old [description:"Check low Pt dca distributions, see slides and MC file given by Kong in Skype" entry:"1499878147" modified:"1499878147" project:"Loosen" status:"pending" tags:"Cas" uuid:"ee6835bc-543f-4155-9443-32ca2db48310"]
+new [description:"Check low Pt dca distributions, see slides and MC file given by Kong in Skype" entry:"1499878147" modified:"1501691234" project:"Omega" status:"pending" tags:"Cas" uuid:"ee6835bc-543f-4155-9443-32ca2db48310"]
+---
+time 1501691239
+old [annotation_1500502920:"Clarify what producer means?" description:"Email Hong for Omega" entry:"1500493427" modified:"1500502920" project:"Loosen" status:"pending" tags:"Cas" uuid:"45424e12-d2f4-44be-9f13-6357585c55ca"]
+new [annotation_1500502920:"Clarify what producer means?" description:"Email Hong for Omega" entry:"1500493427" modified:"1501691239" project:"Omega" status:"pending" tags:"Cas" uuid:"45424e12-d2f4-44be-9f13-6357585c55ca"]
+---
+time 1501691242
+old [depends:"199c713f-f881-40a2-a82b-729097f5462c" description:"Produce Omega filter" entry:"1501614224" modified:"1501614303" project:"Loosen" status:"pending" tags:"Cas" uuid:"1047e493-c100-4ff4-b80b-6df40ce78e40"]
+new [depends:"199c713f-f881-40a2-a82b-729097f5462c" description:"Produce Omega filter" entry:"1501614224" modified:"1501691242" project:"Omega" status:"pending" tags:"Cas" uuid:"1047e493-c100-4ff4-b80b-6df40ce78e40"]
+---
+time 1501691245
+old [description:"Determine Omega cuts from 16-013" entry:"1501614287" modified:"1501614287" project:"Loosen" status:"pending" tags:"Cas" uuid:"199c713f-f881-40a2-a82b-729097f5462c"]
+new [description:"Determine Omega cuts from 16-013" entry:"1501614287" modified:"1501691245" project:"Omega" status:"pending" tags:"Cas" uuid:"199c713f-f881-40a2-a82b-729097f5462c"]
+---
+time 1501691247
+old [description:"Make some peaks for the higher pT bins" entry:"1501614630" modified:"1501614630" project:"Loosen" status:"pending" tags:"Cas" uuid:"3b637325-e8c2-4a29-9d45-2faa6d4e9518"]
+new [description:"Make some peaks for the higher pT bins" entry:"1501614630" modified:"1501691247" project:"Omega" status:"pending" tags:"Cas" uuid:"3b637325-e8c2-4a29-9d45-2faa6d4e9518"]
+---
+time 1501691272
+old [description:"Incorporate 0.2-0.4 GeV pT bin again" entry:"1501621157" modified:"1501621157" project:"Loosen" status:"pending" tags:"Cas" uuid:"57876e9a-7f73-4f2b-87a1-714ca744f347"]
+new [description:"Incorporate 0.2-0.4 GeV pT bin again" entry:"1501621157" modified:"1501691272" project:"Ksla" status:"pending" tags:"ksla" uuid:"57876e9a-7f73-4f2b-87a1-714ca744f347"]
+---
+time 1501691392
+new [description:"Calculate higher order harmonics V0s" entry:"1501691392" modified:"1501691392" project:"Ksla" status:"pending" tags:"ksla" uuid:"0de10a14-91a9-4d36-9838-6a9c5b9ae2e1"]
+---
+time 1501691568
+new [description:"Bring documentation up to date" entry:"1501691568" modified:"1501691568" status:"pending" tags:"bureau" uuid:"c77361bb-c9d3-4aa0-82b5-d1ef67037964"]
+---
+time 1501692818
+old [description:"Bring documentation up to date" entry:"1501691568" modified:"1501691568" status:"pending" tags:"bureau" uuid:"c77361bb-c9d3-4aa0-82b5-d1ef67037964"]
+new [description:"Bring documentation up to date" entry:"1501691568" modified:"1501692818" start:"1501692818" status:"pending" tags:"bureau" uuid:"c77361bb-c9d3-4aa0-82b5-d1ef67037964"]
+---
+time 1501694421
+new [description:"Take supplements" due:"1501779600" entry:"1501694421" imask:"44.000000" modified:"1501614144" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"waiting" tags:"meds" until:"1514786399" uuid:"e702bce9-28de-4f03-81a8-08f03cffbc88" wait:"1501736400"]
+---
+time 1501694421
+old [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++++++++WW" modified:"1501614144" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+new [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++++++++WWW" modified:"1501694421" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+---
+time 1501694425
+old [description:"Bring documentation up to date" entry:"1501691568" modified:"1501692818" start:"1501692818" status:"pending" tags:"bureau" uuid:"c77361bb-c9d3-4aa0-82b5-d1ef67037964"]
+new [description:"Bring documentation up to date" entry:"1501691568" modified:"1501694425" status:"pending" tags:"bureau" uuid:"c77361bb-c9d3-4aa0-82b5-d1ef67037964"]
+---
+time 1501696627
+old [description:"Bring documentation up to date" entry:"1501691568" modified:"1501694425" status:"pending" tags:"bureau" uuid:"c77361bb-c9d3-4aa0-82b5-d1ef67037964"]
+new [description:"Bring documentation up to date" entry:"1501691568" modified:"1501696627" start:"1501696627" status:"pending" tags:"bureau" uuid:"c77361bb-c9d3-4aa0-82b5-d1ef67037964"]
+---
+time 1501705436
+new [description:"Improve macros" entry:"1501705436" modified:"1501705436" status:"pending" tags:"bureau" uuid:"5e64063a-b491-4fff-8b62-ed74a9882d0a"]
+---
+time 1501705462
+old [description:"Improve macros" entry:"1501705436" modified:"1501705436" status:"pending" tags:"bureau" uuid:"5e64063a-b491-4fff-8b62-ed74a9882d0a"]
+new [description:"Enhance macros to work better" entry:"1501705436" modified:"1501705462" status:"pending" tags:"bureau" uuid:"5e64063a-b491-4fff-8b62-ed74a9882d0a"]
+---
+time 1501705523
+new [description:"Check if Omega collection is empty" entry:"1501705523" modified:"1501705523" project:"Omega" status:"pending" tags:"Cas" uuid:"0be68416-dcf1-44bd-81b5-066baffc17a9"]
+---
+time 1501705542
+old [description:"Determine Omega cuts from 16-013" entry:"1501614287" modified:"1501691245" project:"Omega" status:"pending" tags:"Cas" uuid:"199c713f-f881-40a2-a82b-729097f5462c"]
+new [depends:"0be68416-dcf1-44bd-81b5-066baffc17a9" description:"Determine Omega cuts from 16-013" entry:"1501614287" modified:"1501705542" project:"Omega" status:"pending" tags:"Cas" uuid:"199c713f-f881-40a2-a82b-729097f5462c"]
+---
+time 1501705734
+old [description:"Incorporate 0.2-0.4 GeV pT bin again" entry:"1501621157" modified:"1501691272" project:"Ksla" status:"pending" tags:"ksla" uuid:"57876e9a-7f73-4f2b-87a1-714ca744f347"]
+new [annotation_1501705734:"Need to update TGraph plotting macros" description:"Incorporate 0.2-0.4 GeV pT bin again" entry:"1501621157" modified:"1501705734" project:"Ksla" status:"pending" tags:"ksla" uuid:"57876e9a-7f73-4f2b-87a1-714ca744f347"]
+---
+time 1501705779
+new [description:"Fix MITStyle and Root 6" entry:"1501705779" modified:"1501705779" project:"Ksla" status:"pending" tags:"ksla" uuid:"5584fd2d-a16f-41e1-8bbd-2de339ea11a8"]
+---
+time 1501706047
+old [description:"Bring documentation up to date" entry:"1501691568" modified:"1501696627" start:"1501696627" status:"pending" tags:"bureau" uuid:"c77361bb-c9d3-4aa0-82b5-d1ef67037964"]
+new [description:"Bring documentation up to date" entry:"1501691568" modified:"1501706047" status:"pending" tags:"bureau" uuid:"c77361bb-c9d3-4aa0-82b5-d1ef67037964"]
+---
+time 1501706052
+old [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++++++++WWW" modified:"1501694421" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+new [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++++++++W+W" modified:"1501706052" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+---
+time 1501706052
+old [description:"Take supplements" due:"1501693200" entry:"1501614143" imask:"43.000000" modified:"1501529007" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"pending" tags:"meds" until:"1514786399" uuid:"65a3e1c5-9d18-4edc-90c4-9e0261e2bac2"]
+new [description:"Take supplements" due:"1501693200" end:"1501706052" entry:"1501614143" imask:"43.000000" modified:"1501706052" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"completed" tags:"meds" until:"1514786399" uuid:"65a3e1c5-9d18-4edc-90c4-9e0261e2bac2"]
+---
+time 1501706059
+old [description:"Check Facebook" due:"1497976200" entry:"1497830926" mask:"++++++WW" modified:"1501614143" recur:"weekly" status:"recurring" tags:"Misc" uuid:"94b3e296-0399-4366-be27-759e97c08d4c" wait:"1497934800"]
+new [description:"Check Facebook" due:"1497976200" entry:"1497830926" mask:"+++++++W" modified:"1501706059" recur:"weekly" status:"recurring" tags:"Misc" uuid:"94b3e296-0399-4366-be27-759e97c08d4c" wait:"1497934800"]
+---
+time 1501706059
+old [description:"Check Facebook" due:"1501605000" entry:"1501008158" imask:"6.000000" modified:"1500959111" parent:"94b3e296-0399-4366-be27-759e97c08d4c" recur:"weekly" status:"pending" tags:"Misc" uuid:"2f40643d-746e-4992-8173-ae76a222656b"]
+new [description:"Check Facebook" due:"1501605000" end:"1501706059" entry:"1501008158" imask:"6.000000" modified:"1501706059" parent:"94b3e296-0399-4366-be27-759e97c08d4c" recur:"weekly" status:"completed" tags:"Misc" uuid:"2f40643d-746e-4992-8173-ae76a222656b"]
+---
+time 1501706059
+old [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++++++++W+W" modified:"1501706052" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+new [description:"Take supplements" due:"1497978000" entry:"1497885485" mask:"++++++++++++++++++++++++++++++++++++++++++++W" modified:"1501706059" recur:"daily" status:"recurring" tags:"meds" until:"1514786399" uuid:"94b1e554-0737-469b-bc25-2ef75135217f" wait:"1497934800"]
+---
+time 1501706059
+old [description:"Take supplements" due:"1501606800" entry:"1501529007" imask:"42.000000" modified:"1501518636" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"pending" tags:"meds" until:"1514786399" uuid:"9f3dce89-77ad-4dfa-89a4-b555ce19a290"]
+new [description:"Take supplements" due:"1501606800" end:"1501706059" entry:"1501529007" imask:"42.000000" modified:"1501706059" parent:"94b1e554-0737-469b-bc25-2ef75135217f" recur:"daily" status:"completed" tags:"meds" until:"1514786399" uuid:"9f3dce89-77ad-4dfa-89a4-b555ce19a290"]
+---
+time 1501706080
+old [description:"Bring documentation up to date" entry:"1501691568" modified:"1501706047" status:"pending" tags:"bureau" uuid:"c77361bb-c9d3-4aa0-82b5-d1ef67037964"]
+new [description:"Bring documentation up to date" end:"1501706080" entry:"1501691568" modified:"1501706080" status:"completed" tags:"bureau" uuid:"c77361bb-c9d3-4aa0-82b5-d1ef67037964"]
+---
+time 1501706084
+old [description:"Fix MITStyle and Root 6" entry:"1501705779" modified:"1501705779" project:"Ksla" status:"pending" tags:"ksla" uuid:"5584fd2d-a16f-41e1-8bbd-2de339ea11a8"]
+new [description:"Fix MITStyle and Root 6" entry:"1501705779" modified:"1501706084" project:"Ksla" start:"1501706084" status:"pending" tags:"ksla" uuid:"5584fd2d-a16f-41e1-8bbd-2de339ea11a8"]
+---
+time 1501708131
+old [description:"Fix MITStyle and Root 6" entry:"1501705779" modified:"1501706084" project:"Ksla" start:"1501706084" status:"pending" tags:"ksla" uuid:"5584fd2d-a16f-41e1-8bbd-2de339ea11a8"]
+new [description:"Fix MITStyle and Root 6" entry:"1501705779" modified:"1501708131" project:"Ksla" status:"pending" tags:"ksla" uuid:"5584fd2d-a16f-41e1-8bbd-2de339ea11a8"]
+---
+time 1501708132
+old [description:"Fix MITStyle and Root 6" entry:"1501705779" modified:"1501708131" project:"Ksla" status:"pending" tags:"ksla" uuid:"5584fd2d-a16f-41e1-8bbd-2de339ea11a8"]
+new [description:"Fix MITStyle and Root 6" end:"1501708132" entry:"1501705779" modified:"1501708132" project:"Ksla" status:"completed" tags:"ksla" uuid:"5584fd2d-a16f-41e1-8bbd-2de339ea11a8"]
+---

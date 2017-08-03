@@ -12,7 +12,7 @@ let g:airline_theme='luna'
 "let g:airline_solarized_bg='dark'
 let g:airline#extensions#tabline#fnamemod = ':t'
 
-" Show whitespace
+" Show trailing whitespace
 highlight ExtraWhitespace ctermbg=lightgreen guibg=lightgreen
 au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 au InsertLeave * match ExtraWhitespace /\s\+$/
@@ -65,39 +65,40 @@ else
 endif
 
 " navigating tabs
-nnoremap <leader>n :tabprevious<CR>
-nnoremap <leader>m :tabnext<CR>
+nnoremap <leader>n :bp<CR>
+nnoremap <leader>m :bn<CR>
 nnoremap <leader>t :tabnew<CR>
+nnoremap <expr> du &diff ? ':diffup<CR>' : ''
 
-nnoremap <leader>e :NERDTree<CR>
-nnoremap <C-e> 5<C-e>
-nnoremap <C-y> 5<C-y>
-vnoremap <leader>y "*y
-nnoremap <leader>p "*p
-nnoremap gqq {gq}2<c-o>
+inoremap fj <ESC>
 inoremap gqq <Esc>{gq}2<c-o>
-nnoremap <CR> o<Esc>
+nnoremap <S-j> 15j
+nnoremap <S-k> 15k
+nnoremap <C-e> 5<C-e>
+nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
-nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
+nnoremap <C-y> 5<C-y>
+nnoremap <CR> o<Esc>
+nnoremap <leader>e :NERDTree<CR>
+nnoremap <leader>p "*p
 nnoremap <leader>q @q
-vnoremap <leader>r "y:s/\<\>//g<left><left><left><left><left>
-inoremap fj <ESC>
-vnoremap fj <ESC>
-"nnoremap <leader>e $
-"nnoremap <leader>b ^
+nnoremap gqq {gq}2<c-o>
 nnoremap zz z=1<CR><CR>
+vnoremap <leader>r "y:s/\<\>//g<left><left><left><left><left>
+vnoremap <leader>y "*y
+vnoremap fj <ESC>
 let g:C_Ctrl_j ='off'
 " Solarized
 "set background = light
 "set background=dark
 if has('gui_running')
-	    "set background=light
-	"else
 	    set background=light
             colorscheme solarized
             let g:solarized_termcolors=256
+else
+    colorscheme skittles_berry
 endif
 
 " VIM Configurations from https://github.com/mcantor/no_plugins
@@ -198,3 +199,6 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
+
+"Vimdiff set wrap (can't use because messes up coloring of changes)
+"autocmd FilterWritePre * if &diff | setlocal wrap< | endif

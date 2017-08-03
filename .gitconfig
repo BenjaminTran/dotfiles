@@ -1,0 +1,6 @@
+[user]
+	email = blt1@rice.edu
+[diff]
+    external = ~/git_diff_wrapper
+[pager]
+    diff =
