@@ -5,12 +5,17 @@ set mouse=a
 vnoremap < <gv
 vnoremap > >gv
 
-" vim-airline smarter tab line
+" vim-airline
+" smarter tab line
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline_theme='luna'
 "let g:airline_solarized_bg='dark'
 let g:airline#extensions#tabline#fnamemod = ':t'
+
+"Show buffer number in buffer bar
+let g:airline#extensions#tabline#buffer_nr_show = 1
+
 
 " Show trailing whitespace
 highlight ExtraWhitespace ctermbg=lightgreen guibg=lightgreen
@@ -68,7 +73,7 @@ endif
 nnoremap <leader>n :bp<CR>
 nnoremap <leader>m :bn<CR>
 nnoremap <leader>t :tabnew<CR>
-nnoremap <expr> du &diff ? ':diffup<CR>' : ''
+"nnoremap <expr> du &diff ? ':diffup<CR>' : ''
 
 inoremap fj <ESC>
 inoremap gqq <Esc>{gq}2<c-o>
@@ -202,3 +207,11 @@ au Syntax * RainbowParenthesesLoadBraces
 
 "Vimdiff set wrap (can't use because messes up coloring of changes)
 "autocmd FilterWritePre * if &diff | setlocal wrap< | endif
+
+
+xnoremap @ :<C-u>call ExecuteMacroOverVisualRange()<CR>
+
+function! ExecuteMacroOverVisualRange()
+      echo "@".getcmdline()
+      execute ":'<,'>normal @".nr2char(getchar())
+endfunction
