@@ -12,9 +12,30 @@ let g:airline_powerline_fonts = 1
 let g:airline_theme='luna'
 "let g:airline_solarized_bg='dark'
 let g:airline#extensions#tabline#fnamemod = ':t'
+" Remove vanilla status indicator
+set noshowmode
+" Disable tagbar faster performance
+let g:airline#extensions#tagbar#enabled = 0
+let g:airline#extensions#syntastic#enabled = 0
 
 "Show buffer number in buffer bar
 let g:airline#extensions#tabline#buffer_nr_show = 1
+
+"Neocomplete
+let g:neocomplete#enable_at_startup = 1
+
+"TagBar
+nmap <F8> :TagbarToggle<CR>
+
+"let g:tagbar_left = 1
+"let g:tagbar_vertical = 25
+"let NERDTreeWinPos = 'left'
+"nnoremap <f5> :NERDTreeToggle <CR> :TagbarToggle <CR>
+
+"YouCompleteMe
+let g:ycm_global_ycm_extra_conf = '/Users/blt1/.vim/bundle/youcompleteme/third_party/ycmd/cpp/ycm'
+let b:ycm_largefile=1
+let g:enable_ycm_at_startup = 0
 
 
 " Show trailing whitespace
@@ -86,7 +107,7 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 nnoremap <C-y> 5<C-y>
 nnoremap <CR> o<Esc>
-nnoremap <leader>e :NERDTree<CR>
+nnoremap <leader>e :NERDTreeToggle<CR>
 nnoremap <leader>p "*p
 nnoremap <leader>q @q
 nnoremap gqq {gq}2<c-o>
@@ -103,7 +124,7 @@ if has('gui_running')
             colorscheme solarized
             let g:solarized_termcolors=256
 else
-    colorscheme skittles_berry
+    colorscheme skittles_autumn
 endif
 
 " VIM Configurations from https://github.com/mcantor/no_plugins
@@ -215,3 +236,12 @@ function! ExecuteMacroOverVisualRange()
       echo "@".getcmdline()
       execute ":'<,'>normal @".nr2char(getchar())
 endfunction
+
+"yank to clipboard
+if has("clipboard")
+    set clipboard=unnamed " copy to the system clipboard
+
+    if has("unnamedplus") " X11 support
+        set clipboard+=unnamedplus
+    endif
+endif
