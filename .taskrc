@@ -32,7 +32,7 @@ include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-violets-256.theme
 color=on
 context.Health=+appt or +meds
 context.MedApps=+TMDSAS or +AMCAS or +CV or +Sec
-context.Research=+bureau or +Cas or +ksla or +D0 or +HR or +sys
+context.Research=+bureau or +Cas or +ksla or +D0 or +HR or +sys or +eff or +Omega or +work
 complete.all.projects=yes
 complete.all.tags=yes
 color.project.6mo=on green

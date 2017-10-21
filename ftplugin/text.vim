@@ -1,2 +1,2 @@
-au FocusLost * silent! wa
 set tw=80
+setlocal spell

@@ -1,5 +1,5 @@
 " enable mouse
-set mouse=a
+"set mouse=a
 
 "easier indentation handling
 vnoremap < <gv
@@ -7,22 +7,32 @@ vnoremap > >gv
 
 " vim-airline
 " smarter tab line
+let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline_theme='luna'
+"let g:Powerline_stl_path_style = 'short'
 "let g:airline_solarized_bg='dark'
-let g:airline#extensions#tabline#fnamemod = ':t'
 " Remove vanilla status indicator
 set noshowmode
 " Disable tagbar faster performance
 let g:airline#extensions#tagbar#enabled = 0
 let g:airline#extensions#syntastic#enabled = 0
+let g:airline#extensions#encoding#enabled = 0
+" Remove encoding if utf-8
+let g:airline#parts#ffenc#skip_expected_string='utf-8[unix]'
+" Shorten words to w
+"let g:airline#extensions#wordcount#format = '%d w'
 
 "Show buffer number in buffer bar
 let g:airline#extensions#tabline#buffer_nr_show = 1
 
 "Neocomplete
 let g:neocomplete#enable_at_startup = 1
+
+"Taboo
+let g:taboo_tabline = 0
+set sessionoptions+=tabpages,globals
 
 "TagBar
 nmap <F8> :TagbarToggle<CR>
@@ -33,16 +43,11 @@ nmap <F8> :TagbarToggle<CR>
 "nnoremap <f5> :NERDTreeToggle <CR> :TagbarToggle <CR>
 
 "YouCompleteMe
-let g:ycm_global_ycm_extra_conf = '/Users/blt1/.vim/bundle/youcompleteme/third_party/ycmd/cpp/ycm'
-let b:ycm_largefile=1
-let g:enable_ycm_at_startup = 0
+"let g:ycm_global_ycm_extra_conf = '/Users/blt1/.vim/bundle/youcompleteme/third_party/ycmd/cpp/ycm'
+"let b:ycm_largefile=1
+"let g:enable_ycm_at_startup = 0
 
 
-" Show trailing whitespace
-highlight ExtraWhitespace ctermbg=lightgreen guibg=lightgreen
-au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
-au InsertLeave * match ExtraWhitespace /\s\+$/
-autocmd ColorScheme * highlight ExtraWhitespace ctermbg=lightgreen guibg=lightgreen
 
 filetype plugin indent on
 " show existing tab with 4 spaces width
@@ -78,8 +83,6 @@ set hidden "allow switch buffers without saving currently modified buffer
 set colorcolumn=+1
 "set shell=/bin/bash\ -i
 hi Search cterm=NONE ctermfg=blue ctermbg=grey
-au BufWinLeave * mkview          " auto save created folds
-au BufWinEnter * silent loadview " auto load created folds
 
 " Change cursor shape to vertical bar in insert mode
 if exists('$TMUX')
@@ -94,6 +97,8 @@ endif
 nnoremap <leader>n :bp<CR>
 nnoremap <leader>m :bn<CR>
 nnoremap <leader>t :tabnew<CR>
+nnoremap <leader>k :tabn<CR>
+nnoremap <leader>j :tabp<CR>
 "nnoremap <expr> du &diff ? ':diffup<CR>' : ''
 
 inoremap fj <ESC>
@@ -108,21 +113,25 @@ nnoremap <C-l> <C-w>l
 nnoremap <C-y> 5<C-y>
 nnoremap <CR> o<Esc>
 nnoremap <leader>e :NERDTreeToggle<CR>
-nnoremap <leader>p "*p
+vnoremap <leader>y "+y
+nnoremap <leader>p "+p
+vnoremap <leader>p "+p
 nnoremap <leader>q @q
 nnoremap gqq {gq}2<c-o>
 nnoremap zz z=1<CR><CR>
 vnoremap <leader>r "y:s/\<\>//g<left><left><left><left><left>
-vnoremap <leader>y "*y
 vnoremap fj <ESC>
+"Search visually selected
+vnoremap // y/<C-R>"<CR>
+
 let g:C_Ctrl_j ='off'
 " Solarized
 "set background = light
 "set background=dark
 if has('gui_running')
-	    set background=light
-            colorscheme solarized
-            let g:solarized_termcolors=256
+    set background=light
+    colorscheme solarized
+    let g:solarized_termcolors=256
 else
     colorscheme skittles_autumn
 endif
@@ -183,17 +192,17 @@ let g:cpp_concepts_highlight = 1
 let g:cpp_class_scope_highlight = 1
 
 " Syntastic
-let g:syntastic_mode_map = { 'mode': 'passive' }
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+"let g:syntastic_mode_map = { 'mode': 'passive' }
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
 
-let g:syntastic_cpp_checkers = ['gcc']
-let g:syntastic_cpp_compiler = 'clang++'
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+"let g:syntastic_cpp_checkers = ['gcc']
+"let g:syntastic_cpp_compiler = 'clang++'
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_wq = 0
 
 " Live Latex PDF viewer plugin
 let g:livepreview_previewer = 'open -a skim'
@@ -221,27 +230,42 @@ let g:rbpt_colorpairs = [
     \ ['red',         'firebrick3'],
     \ ]
 
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
 
 "Vimdiff set wrap (can't use because messes up coloring of changes)
 "autocmd FilterWritePre * if &diff | setlocal wrap< | endif
 
+"yank to clipboard
+"if has("clipboard")
+    "set clipboard=unnamed " copy to the system clipboard
 
+    "if has("unnamedplus") " X11 support
+        "set clipboard+=unnamedplus
+    "endif
+"endif
+
+"Execute macro over visually selected block
 xnoremap @ :<C-u>call ExecuteMacroOverVisualRange()<CR>
 
 function! ExecuteMacroOverVisualRange()
       echo "@".getcmdline()
-      execute ":'<,'>normal @".nr2char(getchar())
+        execute ":'<,'>normal @".nr2char(getchar())
 endfunction
 
-"yank to clipboard
-if has("clipboard")
-    set clipboard=unnamed " copy to the system clipboard
+augroup vimrc_autocmd
+    autocmd!
 
-    if has("unnamedplus") " X11 support
-        set clipboard+=unnamedplus
-    endif
-endif
+    " Show trailing whitespace
+    highlight ExtraWhitespace ctermbg=lightgreen guibg=lightgreen
+    au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+    au InsertLeave * match ExtraWhitespace /\s\+$/
+    autocmd ColorScheme * highlight ExtraWhitespace ctermbg=lightgreen guibg=lightgreen
+
+    au BufWinLeave ?* mkview          " auto save created folds
+    au BufWinEnter ?* silent loadview " auto load created folds
+
+    au VimEnter * RainbowParenthesesToggle
+    au Syntax * RainbowParenthesesLoadRound
+    au Syntax * RainbowParenthesesLoadSquare
+    au Syntax * RainbowParenthesesLoadBraces
+
+augroup END
