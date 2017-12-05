@@ -1,3 +1,5 @@
+set lazyredraw
+set ttyfast
 " enable mouse
 "set mouse=a
 
@@ -62,12 +64,12 @@ set sm
 set showmatch
 set ai
 set nojoinspaces
+"syntax on
 highlight CursorLine ctermbg=DarkGray
 execute pathogen#infect()
-syntax on
-let java_highlight_all=1
-let java_highlight_functions="style"
-let java_allow_cpp_keywords=1
+"let java_highlight_all=1
+"let java_highlight_functions="style"
+"let java_allow_cpp_keywords=1
 "set foldmethod=marker
 set hlsearch
 inoremap <Down> <C-o>gj
@@ -92,6 +94,8 @@ else
     let &t_SI = "\<ESC>]50;CursorShape=1\x7" " Vertical bar in insert mode
     let &t_EI = "\<ESC>]50;CursorShape=0\x7" " Block in normal mode
 endif
+
+"let g:ale_linters = {'cpp':['gcc'],}
 
 " navigating tabs
 nnoremap <leader>n :bp<CR>
@@ -129,8 +133,8 @@ let g:C_Ctrl_j ='off'
 "set background = light
 "set background=dark
 if has('gui_running')
-    set background=light
-    colorscheme solarized
+    set background=dark
+    colorscheme skittles_autumn
     let g:solarized_termcolors=256
 else
     colorscheme skittles_autumn
@@ -156,7 +160,7 @@ filetype plugin on
 
 " IMPORTANT: win32 users will need to have 'shellslash' set so that latex
 " can be called correctly
-set shellslash
+"set shellslash
 
 " IMPORTANT: grep will sometimes skip displaying the file name if you
 " search in a single file. This will confuse Latex-Suite. Set your grep

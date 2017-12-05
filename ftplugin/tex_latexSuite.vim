@@ -26,6 +26,9 @@ set iskeyword+=:
 " Include graphics
 call IMAP ('EIE', "\\begin{figure}[H]\<CR>\\centering\<CR>\\includegraphics[scale=<++>,frame]{<++>}\<CR>\\caption{<++>}\<CR>\\label{<++>}\<CR>\\end{figure}\<CR><++>",'tex')
 
+"Include graphics wrapfigure
+call IMAP ('EIW', "\\begin{wrapfigure}{r}{<++>\\textwidth}\<CR>\\centering\<CR>\\includegraphics[width=<++>\\textwidth,frame]{<++>}\<CR>\\caption{<++>}\<CR>\\label{fig:<++>}\<CR>\\end{wrapfigure}\<CR><++>",'tex')
+
 " Figure environment
 call IMAP ('EFE', "\\begin{figure}[H]\<CR>\\centering\<CR><++>\<CR>\\caption{<++>}\<CR>\\label{<++>}\<CR>\\end{figure}\<CR><++>",'tex')
 
