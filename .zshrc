@@ -3,7 +3,7 @@
 export MANPATH=/usr/local/root/man:/opt/local/share/man:/usr/share/man:/usr/local/share/man:/opt/X11/share/man:/Applications/Xcode.app/Contents/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/share/man
 export LD_LIBRARY_PATH=/usr/local/root/lib
 export LIBPATH=/usr/local/root/lib
-export PATH=/usr/local/root/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/bin/cpplint:/Library/TeX/texbin #/usr/texbin
+export PATH=/usr/local/root/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/bin/cpplint:/Library/TeX/texbin:/usr/local/bin/vim #/usr/texbin
 export DYLD_LIBRARY_PATH=/usr/local/root/lib
 export PYTHONPATH=/usr/local/root/lib
 export SHLIB_PATH=/usr/local/root/lib
@@ -11,6 +11,7 @@ export SHLIB_PATH=/usr/local/root/lib
 # The orginal version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
 export PATH
+export PATH=$PATH:~/tools/gradle-2.7/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -108,7 +109,7 @@ bindkey fj vi-cmd-mode
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias vim='\usr\local\bin\vim' #To use HomeBrew version of vim
+alias vim='/usr/local/bin/vim' #To use HomeBrew version of vim
 alias ctags='/usr/local/bin/ctags'
 alias c='pwd | pbcopy'
 alias v='pbpaste'
@@ -129,7 +130,9 @@ alias    m='cd /volumes/"MacHD"/Users/blt1/Dropbox/Research/Macros'
 alias rdir='cd /volumes/l/usr/local/root'
 alias  sub='open -a "sublime text"'
 alias pre='open -a "preview"'
-alias ski='open -a Skim'
+alias ski='open -a "skim"'
+alias src='cd /volumes/MacHD/Users/blt1/OMS/runtimelogger/src/main/java/runtimelogger'
+alias run='cd /volumes/MacHD/Users/blt1/OMS/runtimelogger/'
 alias scr=' cd /volumes/"MacHD"/Users/blt1/Pictures/Screenshots'
 alias lx='ssh btran@lxplus6.cern.ch'
 alias pr='ssh -ND 1080 -l btran cmsusr.cern.ch'
@@ -173,3 +176,4 @@ while true; do
 	fi
 done
 }
+source ~/.oh-my-zsh/plugins/z/z.sh

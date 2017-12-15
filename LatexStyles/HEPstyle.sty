@@ -1,0 +1,147 @@
+% Declare that this style file requires at least LaTeX version 2e.
+\NeedsTeXFormat{LaTeX2e}
+
+% Provide the name of your page, the date it was last updated, and a comment about what it's used for
+\ProvidesPackage{HEPstyle}[2017/10/26 latex commands for HEP from Wei]
+
+% Now paste your code from the preamble here
+
+% PACKAGES
+\RequirePackage{etex}
+\RequirePackage[toc,page]{appendix}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[english]{babel}
+\RequirePackage[x11names,table]{xcolor}
+\RequirePackage{mathtools} %for drawing boxed equations
+%\RequirePackage{lmodern}
+\RequirePackage{amssymb,amsthm}
+\RequirePackage{amsfonts} %mathematics fonts
+\RequirePackage{amsmath}%words in math mode \text{} and equation names under numbers
+\RequirePackage{amsthm}%allow numbered and unnumbered theorems
+\RequirePackage{ mathrsfs }%for Lagrangian L
+\RequirePackage{commath}% for pd and od functions along with delimiters
+\RequirePackage{relsize}% more control of size of subscript symbols
+\RequirePackage{setspace}
+\RequirePackage{cool} % math package
+\RequirePackage{glossaries}
+\RequirePackage[hypertexnames]{hyperref}
+
+%
+% custom definitions
+%
+\newcommand{\Dzero}{\ensuremath{\cmsSymbolFace{D}^{0}}\xspace}
+\newcommand{\antiDzero}{\ensuremath{\cmsSymbolFace{\bar{{D}}^{0}}}\xspace}
+\newcommand{\Dzerodecay}{\ensuremath{\Dzero\rightarrow K^{-}~\pi^{+}}\xspace}
+
+\newcommand {\SC}    {\ensuremath{SC(n,m)}}
+\newcommand {\roots}    {\ensuremath{\sqrt{s}}}
+\newcommand {\rootsNN}  {\ensuremath{\sqrt{s_{_{NN}}}}}
+\newcommand {\dndy}     {\ensuremath{dN/dy}}
+\newcommand {\dnchdy}   {\ensuremath{dN_{\mathrm{ch}}/dy}}
+\newcommand {\dndeta}   {\ensuremath{dN/d\eta}}
+\newcommand {\dnchdeta} {\ensuremath{dN_{\mathrm{ch}}/d\eta}}
+\newcommand {\dndpt}    {\ensuremath{dN/d\pt}}
+\newcommand {\dnchdpt}  {\ensuremath{dN_{\mathrm{ch}}/d\pt}}
+\newcommand {\deta}     {\ensuremath{\Delta\eta}}
+\newcommand {\dphi}     {\ensuremath{\Delta\phi}}
+\newcommand {\pttrg}       {\ensuremath{p_\mathrm{T}^{\mathrm{trig}}}}
+\newcommand {\ptass}       {\ensuremath{p_\mathrm{T}^{\mathrm{assoc}}}}
+\newcommand {\ptref}       {\ensuremath{p_\mathrm{T}^{\mathrm{ref}}}}
+\newcommand {\AJ}       {\ensuremath{A_J}}
+\newcommand {\npart}    {\ensuremath{\mathrm{N}_\mathrm{part}}}
+\newcommand {\ncoll}    {\ensuremath{\mathrm{N}_\mathrm{coll}}}
+%\newcommand {\ET}       {\ensuremath{E_T}}  %% already defined in ../../../utils/trunk/general/ptdr-definitions.tex
+\newcommand {\llangle}       {\ensuremath{\langle\langle}}
+\newcommand {\rrangle}       {\ensuremath{\rangle\rangle}}
+\newcommand {\kshort}    {\ensuremath{K^{0}_{\mathrm{s}}}}
+\newcommand {\vsecsig}    {\ensuremath{v_2^\mathrm{signal}}}
+\newcommand {\vsecbkg}    {\ensuremath{v_2^\mathrm{bkg}}}
+\newcommand {\vsecobs}    {\ensuremath{v_2^\mathrm{obs}}}
+\newcommand {\vtrdsig}    {\ensuremath{v_3^\mathrm{signal}}}
+\newcommand {\vtrdbkg}    {\ensuremath{v_3^\mathrm{bkg}}}
+\newcommand {\vtrdobs}    {\ensuremath{v_3^\mathrm{obs}}}
+\newcommand {\vnsig}    {\ensuremath{v_n^\mathrm{signal}}}
+\newcommand {\vnbkg}    {\ensuremath{v_n^\mathrm{bkg}}}
+\newcommand {\vnobs}    {\ensuremath{v_n^\mathrm{obs}}}
+\newcommand{\ket}       {\ensuremath{KE_{\mathrm{T}}}\xspace}
+
+\newcommand {\pp}    {\ensuremath{\text{pp}}\xspace}
+\newcommand {\ppbar} {\ensuremath{\text{p\={p}}}\xspace}
+\newcommand {\pbarp} {\ensuremath{\text{p\={p}}}\xspace}
+\newcommand {\PbPb}  {\ensuremath{\text{PbPb}}\xspace}
+\newcommand {\AuAu}  {\ensuremath{\text{AuAu}}\xspace}
+\newcommand {\pPb}  {\ensuremath{\text{pPb}}\xspace}
+\newcommand {\Pbp}  {\ensuremath{\text{Pbp}}\xspace}
+\newcommand {\AonA}  {\ensuremath{\text{AA}}\xspace}
+\newcommand {\pA}    {\ensuremath{\text{pA}}\xspace}
+\newcommand {\dAu}    {\ensuremath{\text{dAu}}\xspace}
+\newcommand{\noff}    {\ensuremath{N_\mathrm{trk}^\mathrm{offline}}\xspace}
+\newcommand{\npri}    {\ensuremath{N_\mathrm{trk}^\mathrm{best}}\xspace}
+\newcommand{\nsec}    {\ensuremath{N_\mathrm{trk}^\mathrm{add}}\xspace}
+
+\newcommand{\m}{\ensuremath{\,\text{m}}\xspace}
+\newcommand {\naive}    {na\"{\i}ve}
+\providecommand{\GEANT} {{Geant}\xspace}
+\providecommand{\PHOJET} {\textsc{phojet}\xspace}
+\providecommand{\PYNEW} {\textsc{pythia8}\xspace}
+
+% roman d for derivatives
+\def\d{\mathrm{d}}
+
+% pennames
+\providecommand{\PKzS}{\ensuremath{\mathrm{K^0_S}}}
+\providecommand{\Pp}{\ensuremath{\mathrm{p}}}
+\providecommand{\Pap}{\ensuremath{\mathrm{\overline{p}}}}
+\providecommand{\PgL}{\ensuremath{\Lambda}}
+\providecommand{\PagL}{\ensuremath{\overline{\Lambda}}}
+\providecommand{\PgS}{\ensuremath{\Sigma}}
+\providecommand{\PgSm}{\ensuremath{\Sigma^-}}
+\providecommand{\PgXm}{\ensuremath{\Xi^-}}
+\providecommand{\PgOm}{\ensuremath{\Omega^-}}
+\providecommand{\PgSp}{\ensuremath{\Sigma^+}}
+\providecommand{\PagSm}{\ensuremath{\overline{\Sigma}^-}}
+\providecommand{\PagSp}{\ensuremath{\overline{\Sigma}^+}}
+%\renewcommand{\GEANTfour} {{Geant4}\xspace}
+
+
+\newcommand {\photonjet}{photon+jet}
+\let\gammajet\photonjet
+
+\providecommand{\ptjet}{\ptj}
+\providecommand{\ptgamma}{\ptg}
+\providecommand{\ptphoton}{\ptg}
+\providecommand{\rjg}{\ensuremath{R_{J\cPgg}}\xspace}
+\providecommand{\xjg}{\ensuremath{x_{J\cPgg}}\xspace}
+\providecommand{\sjg}{\ensuremath{\sigma(\Delta\phi_{J\cPgg})}\xspace}
+\providecommand{\ptg}{\ensuremath{p_{\mathrm{T},\cPgg}}\xspace}
+\providecommand{\dphijg}{\ensuremath{\Delta\phi_{J\cPgg}}\xspace}
+\providecommand{\avexjg}{\ensuremath{\langle x_{J\cPgg}\rangle}\xspace}
+\providecommand{\sigeta}{\ensuremath{\sigma_{\eta\eta}}\xspace}
+\providecommand{\HYDJET} {\textsc{hydjet}\xspace}
+\providecommand{\PYTHIAHYDJET} {\textsc{pythia + hydjet}\xspace}
+\providecommand{\PYTHIA} {\textsc{pythia}\xspace}
+\providecommand{\HIJING} {\textsc{hijing}\xspace}
+\providecommand{\AMPT} {\textsc{ampt}\xspace}
+\providecommand{\EPOS} {\textsc{epos}\xspace}
+
+%Maxime custom.
+\newcommand{ \ra }{\rangle}
+\newcommand{ \lan }{\langle}
+\newcommand{ \mean }[1]{\lan #1 \ra}
+\newcommand{ \dmean }[1]{\lan\lan #1 \ra\ra}
+\newcommand{ \sump }{\sideset{}{'}\sum}
+\newcommand{ \ds }{\displaystyle}
+\newcommand{ \cn }[1]{c_n\{#1\}}
+\newcommand{ \vn }[1]{\ensuremath{v_n\{#1\}}}
+\newcommand{ \vtwo }[1]{\ensuremath{v_2\{#1\}}}
+
+\providecommand{\mubinv} {\ensuremath{\,\mu\mathrm{b}^{-1}}\xspace}
+
+%Ben custom
+\newcommand{\nass}{\ensuremath{N_{\mathrm{assoc}}}\xspace}
+\newcommand{\pt}{\ensuremath{p_{T}}\xspace}
+\newcommand{\Vz}{\ensuremath{V^{0}}\xspace}
+
+% Finally, we'll use \endinput to indicate that LaTeX can stop reading this file. LaTeX will ignore anything after this line.
+\endinput

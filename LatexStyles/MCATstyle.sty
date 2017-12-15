@@ -1,0 +1,241 @@
+% Declare that this style file requires at least LaTeX version 2e.
+\NeedsTeXFormat{LaTeX2e}
+
+% Provide the name of your page, the date it was last updated, and a comment about what it's used for
+\ProvidesPackage{MCATstyle}[2016/08/02 Ben's Custom Latex Style for MCAT]
+
+% Now paste your code from the preamble here
+
+% PACKAGES
+\RequirePackage{etex}
+\RequirePackage[toc,page]{appendix}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[english]{babel}
+\RequirePackage{subfiles}
+\RequirePackage{booktabs}
+\RequirePackage{colortbl}
+\RequirePackage{tabularx}
+\RequirePackage[font=footnotesize, labelfont=bf,justification=justified,format=plain]{caption} 
+\RequirePackage[labelformat = empty,position=top]{subcaption}
+%\RequirePackage[margin=1cm]{caption}
+\RequirePackage{color,soul}
+\RequirePackage[x11names,table]{xcolor}
+\RequirePackage[overload]{empheq}
+\RequirePackage[object=vectorian]{pgfornament}
+\RequirePackage{sectsty}
+\RequirePackage{varwidth}
+\RequirePackage{multicol}
+\RequirePackage{wrapfig}
+\RequirePackage{float}
+\RequirePackage[export]{adjustbox}
+\RequirePackage{chemfig}
+\RequirePackage{scrextend}
+\RequirePackage{paralist}
+\RequirePackage{enumitem} % more option enumerate
+\RequirePackage{mdframed}
+\RequirePackage{xstring}
+\RequirePackage{timestamp}
+\setlength{\columnseprule}{1pt}
+\colorlet{textcolor}{black}
+\colorlet{maroon}{red!70!black}
+\RequirePackage{mathtools} %for drawing boxed equations
+%\RequirePackage{lmodern}
+\RequirePackage{amssymb,amsthm}
+\RequirePackage[margin=1in]{geometry}
+\RequirePackage{amsfonts} %mathematics fonts
+\RequirePackage{amsmath}%words in math mode \text{} and equation names under numbers
+\RequirePackage{amsthm}%allow numbered and unnumbered theorems
+\RequirePackage{ mathrsfs }%for Lagrangian L
+\RequirePackage{commath}% for pd and od functions along with delimiters
+\RequirePackage{relsize}% more control of size of subscript symbols
+\RequirePackage{setspace}
+\RequirePackage{microtype}
+\RequirePackage{siunitx}
+\RequirePackage{cool} % math package
+\RequirePackage{verbatim}
+%\usepackage{xparse} % for more flexbility in declaring commands e.g. multiple optional argument commands
+\RequirePackage{xspace} %decides whether or not to add trailing space after using a new command. Insert \xspace where the trailing space would need to go 
+\RequirePackage{graphicx}
+\RequirePackage{makeidx}
+\RequirePackage{listings}
+\RequirePackage{pdfpages}
+\RequirePackage{tikz}
+\usetikzlibrary{decorations.pathreplacing,calc}
+\RequirePackage{glossaries}
+\RequirePackage[hypertexnames,colorlinks]{hyperref}
+\RequirePackage[nameinlink]{cleveref}
+
+%SET GRAPHICSPATH FOR SUBFILES
+
+%\setlength{\parindent}{0pt} %removes indentations
+% ENVIRONMENTS
+\newtheorem*{problem*}{\color{DodgerBlue4}Problem}
+
+\newenvironment{solution}
+{\let\oldqedsymbol=\qedsymbol
+	\renewcommand{\qedsymbol}{$\blacktriangleleft$}
+        \begin{proof}[\bfseries\upshape \color{DodgerBlue4}Solution]
+	\end{proof}
+	\renewcommand{\qedsymbol}{\oldqedsymbol}}
+
+\setlist[description]{%leftmargin=\parindent,
+labelindent=\parindent} % Indents items in description environment, from enumitem package
+
+\newmdenv[
+backgroundcolor = yellow!40 ,%
+%	linecolor = blue!70! black ,%
+linecolor = Firebrick4 ,%
+linewidth=2pt,
+innertopmargin = \topskip ,%
+splittopskip = \topskip ,
+nobreak = true
+]{infobox} % from mdframed
+
+% TYPESETTINGS COMMAND
+\newif\if@sectsty\@sectstytrue
+\DeclareOption{HW}{\@sectstyfalse}
+\DeclareOption*{\OptionNotUsed}
+\ProcessOptions\relax
+\if@sectsty
+\chapterfont{\color{Blue4}}  % sets colour of chapters from sectsty
+\sectionfont{\color{DodgerBlue4}}  % sets colour of sections
+%\subsectionfont{\color{DodgerBlue1}}
+\subsectionfont{\color{black}}
+\subsubsectionfont{\color{cyan}}
+\else
+\setlist[enumerate]{label=\alph*)}
+\fi
+
+% ADDS OPTIONAL ARGUMENT TO ADJUST LINE SPACING
+\makeatletter
+\renewcommand*\env@matrix[1][\arraystretch]{%
+  \edef\arraystretch{#1}%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{*\c@MaxMatrixCols c}}
+\makeatother
+
+% Allows for compilation of master files when subfiles refer to their own images
+% directories
+\makeatletter
+\let\org@subfile\subfile
+\renewcommand*{\subfile}[1]{%
+  \filename@parse{#1}% LaTeX's file name parser
+  \expandafter
+  \graphicspath\expandafter{\expandafter{\filename@area/images/}}% sets the graphics path to be at that directory's image directory
+  \org@subfile{#1}%
+  \expandafter
+  \graphicspath\expandafter{\expandafter{images/}}% returns the graphics path to the current directory's image directory
+}
+\makeatother
+
+%Boxing multiple aligned equations
+\newcommand*\widefbox[1]{\fbox{\hspace{2em}#1\hspace{2em}}}
+
+%COLORS
+\definecolor{fu-blue}{RGB}{0,51,102}
+
+% COMMANDS
+\renewcommand{\i}{\mathrm{i}} %allows for to write imaginary i
+
+\newcommand{\dbar}{d\hspace*{-0.08em}\bar{}\hspace*{0.1em}}
+\newcommand{\tvec}[1]{\ensuremath{\vec{\boldsymbol{#1}}}}
+\newcommand{\pos}{\ensuremath{\vec{\boldsymbol{r}}}}
+\newcommand{\mom}{\ensuremath{\vec{\boldsymbol{p}}}}
+\newcommand{\eqname}[1]{\tag*{\llap{#1}}} %tag equation with name
+\newcommand{\kronecker}[2]{\delta_{#1}^{#2}}
+\DeclareRobustCommand{\vocab}[2][]{\textcolor{Maroon4}{\textbf{#2}}\index{#1#2}}
+\newcommand{\supdag}{\textsuperscript{\textdagger}}
+\newcommand{\supddag}{\textsuperscript{\textdaggerdbl}}
+\newcommand{\chem}[1]{\ensuremath{\mathrm{#1}}}
+\newcommand{\bra}[1]{\ensuremath{| #1 \rangle}}
+\newcommand{\KET}[1]{\ensuremath{\langle #1 |}}
+%For lectures
+% [String]{lecture #}{Date}
+\newcommand{\heading}[3][]{
+  \phantomsection
+  \addcontentsline{toc}{chapter}{Lecture #2 #3}
+  \noindent\begin{minipage}{\textwidth}
+    \begin{center}
+      \bfseries\textsc{Lecture #2 #1}\\
+      #3\\
+      \pgfornament[color=maroon]{88}
+    \end{center}\end{minipage}
+  \vspace{0.1cm}
+  \setcounter{section}{0}
+  \setcounter{chapter}{#2} 
+}
+%For Meetings
+% [String]{Meeting #}{Date}
+\newcommand{\mheading}[3][]{
+  \phantomsection
+  \addcontentsline{toc}{chapter}{Lecture #2 #3}
+  \noindent\begin{minipage}{\textwidth}
+    \begin{center}
+      \bfseries\textsc{Meeting #2 #1}\\
+      #3\\
+      \pgfornament[color=maroon]{88}
+    \end{center}\end{minipage}
+  \vspace{0.1cm}
+  \setcounter{section}{0}
+  \setcounter{chapter}{#2} 
+}
+%Thermodynamic derivatives
+%\newcommand{\thpd}[4][]{%
+%  \IfEqCase{#1}{%
+%    {}{\ensuremath{\left( \dpd{#2}{#3} \right)_{#4}}}
+%    {t}{\ensuremath{\left( \tpd{#2}{#3} \right)_{#4}}}
+%  }
+%}
+\newcommand{\thpd}[4][]{%
+  \IfEqCase{#1}{%
+    {}{\ensuremath{\left( \dpd{#2}{#3} \right)_{#4}}}
+    {2}{\ensuremath{\left( \dpd[#1]{#2}{#3} \right)_{#4}}}
+  }
+}
+%SIDE BRACES
+%Side brace in margin
+\newcommand\BrText[2]{%
+  \par\smallskip
+   \noindent\makebox[\textwidth][r]{$\text{#1}\left\{
+    \begin{minipage}{\textwidth}
+    #2
+    \end{minipage}
+  \right.\nulldelimiterspace=0pt$}\par\smallskip
+}    
+\newcommand\imp{\ensuremath{\implies}\xspace}
+
+%Side brace in enumerate
+\newcounter{itemnum}
+
+\newcommand{\nt}[2][0pt]{%
+  \stepcounter{itemnum}%
+  \if###2##%
+  \else
+    #2%
+    \thinspace
+  \fi
+  \tikz[overlay,remember picture,baseline=(\theitemnum.base),xshift=#1]\node
+  (\theitemnum){};
+}
+
+\newcommand{\makebrace}[4][0pt]{%
+  \begin{tikzpicture}[overlay, remember picture]
+    \draw [decoration={brace,amplitude=0.5em},decorate]
+    let \p1=(#2), \p2=(#3) in
+    ({max(\x1+#1,\x2+#1)}, {\y1+1.75ex}) -- 
+    node[right=0.6em] {#4} ({max(\x1+#1,\x2+#1)}, {\y2-0.5ex});
+  \end{tikzpicture}%
+}
+
+\newenvironment{braceitems}{%
+  \begin{enumerate}
+    }{%
+  \end{enumerate}
+  \setcounter{itemnum}{0}%
+}
+
+
+% Finally, we'll use \endinput to indicate that LaTeX can stop reading this file. LaTeX will ignore anything after this line.
+\endinput

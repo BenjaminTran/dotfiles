@@ -1,0 +1,43 @@
+%This is an add on package with a dependency on MCATstyle so load that before
+%this
+
+
+% Declare that this style file requires at least LaTeX version 2e.
+\NeedsTeXFormat{LaTeX2e}
+
+% Provide the name of your page, the date it was last updated, and a comment about what it's used for
+\ProvidesPackage{HCPRstyle}[2017/03/17 Ben's Custom Latex Style for HCPR]
+
+% Now paste your code from the preamble here
+
+% PACKAGES
+\RequirePackage{enumitem}
+\RequirePackage{tabularx}
+
+%COLORS
+
+%new lists, environments, etc
+\newcolumntype{Z}[0]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}c}%
+\newcolumntype{Y}[0]{>{\centering\arraybackslash\hspace{0pt}}X}%
+\renewcommand\tabularxcolumn[1]{m{#1}}
+\newlist{PRitemize}{itemize}{2}
+\setlist[PRitemize]{label=-,leftmargin=*,topsep=0pt,itemsep=0pt}
+
+% COMMANDS
+\newcommand{\headingHCPR}[3][]{
+  \phantomsection
+  \addcontentsline{toc}{chapter}{Week #2 #3}
+  \noindent\begin{minipage}{\textwidth}
+    \begin{center}
+      \bfseries\textsc{Week #2 #1}\\
+      #3\\
+      \pgfornament[color=maroon]{88}
+    \end{center}\end{minipage}
+  \vspace{0.1cm}
+  \setcounter{section}{0}
+  \setcounter{chapter}{#2} 
+}
+
+% Finally, we'll use \endinput to indicate that LaTeX can stop reading this file. LaTeX will ignore anything after this line.
+\endinput
+
