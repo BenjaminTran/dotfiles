@@ -1,0 +1,46 @@
+pane	0	1	:zsh	1	:*Z	1	:/Volumes/MacHD/Users/blt1/research/RootFiles/Flow/Trees/Phi	1	zsh	:
+pane	0	1	:zsh	1	:*Z	2	:/Volumes/MacHD/Users/blt1/Dropbox/Papers/OMS	0	zsh	:
+pane	0	1	:zsh	1	:*Z	3	:/Users/blt1/.dotfiles/bundle/vim-taskwarrior	0	zsh	:
+pane	0	2	:Macros	0	:-Z	1	:/Volumes/MacHD/Users/blt1/research/Macros/PhiAnalysis	1	root	:/usr/local/bin/vim PhiTreeProof.cc
+root -l
+pane	0	2	:Macros	0	:-Z	2	:/Volumes/MacHD/Users/blt1/OMS/runtimelogger/src	0	zsh	:
+pane	0	2	:Macros	0	:-Z	3	:/Volumes/MacHD/Users/blt1/OMS/runtimelogger/src	0	zsh	:
+pane	0	3	:Phi	0	:Z	1	:/Volumes/MacHD/Users/blt1/research/Macros/PhiAnalysis/TreeReader/rootFiles	0	zsh	:
+pane	0	3	:Phi	0	:Z	2	:/Volumes/MacHD/Users/blt1/research/Macros/PhiAnalysis	1	root	:root -l
+pane	0	4	:SSH	0	:Z	1	:/Volumes/MacHD/Users/blt1/research/Macros/PhiAnalysis/TreeReader/rootFiles	1	root	:root -l Test.root
+pane	0	4	:SSH	0	:Z	2	:/Volumes/MacHD/Users/blt1/research/RootFiles/Flow/Trees/Phi	0	zsh	:
+pane	0	4	:SSH	0	:Z	3	:/Volumes/MacHD/Users/blt1/research/RootFiles/Flow/Trees/Phi	0	zsh	:
+pane	0	5	:Note	0	:	1	:/Volumes/MacHD/Users/blt1/research/D0An/notes/AN-17-223/trunk	0	zsh	:
+pane	0	5	:Note	0	:	2	:/Volumes/MacHD/Users/blt1/Dropbox/Textbooks/Shell	1	zsh	:
+pane	0	6	:Log	0	:	1	:/Volumes/MacHD/Users/blt1/Dropbox/Log/Research/Flow/Meetings_JL/Projects	1	zsh	:
+pane	1	1	:zsh	1	:*	1	:/Users/blt1	1	zsh	:
+pane	10	1	:zsh	1	:*	1	:/Users/blt1	1	zsh	:
+pane	12	1	:zsh	1	:*	1	:/Users/blt1	1	zsh	:
+pane	13	1	:zsh	1	:*	1	:/Users/blt1	1	zsh	:
+pane	15	1	:zsh	1	:*	1	:/Users/blt1	1	zsh	:
+pane	2	1	:zsh	1	:*	1	:/Users/blt1	1	zsh	:
+pane	3	1	:zsh	1	:*	1	:/Users/blt1	1	zsh	:
+pane	4	1	:zsh	1	:*	1	:/Users/blt1	1	zsh	:
+pane	5	1	:zsh	1	:*	1	:/Volumes/MacHD/Users/blt1/research/XiAnalyzer/XiAnalyzer/plugins	1	zsh	:
+pane	7	1	:zsh	1	:*	1	:/Volumes/MacHD/Users/blt1/research/XiAnalyzer/XiAnalyzer/plugins	1	zsh	:
+pane	8	1	:zsh	1	:*	1	:/Users/blt1	1	zsh	:
+pane	9	1	:zsh	1	:*	1	:/Volumes/MacHD/Users/blt1/research/XiAnalyzer/XiAnalyzer/plugins	1	zsh	:
+window	0	1	1	:*Z	c8cd,270x63,0,0[270x33,0,0,27,270x29,0,34{135x29,0,34,28,134x29,136,34,29}]
+window	0	2	0	:-Z	5e7c,270x63,0,0[270x42,0,0{135x42,0,0,30,134x42,136,0,31},270x20,0,43,32]
+window	0	3	0	:Z	c39e,270x63,0,0[270x34,0,0,33,270x28,0,35,34]
+window	0	4	0	:Z	2f3a,270x63,0,0[270x36,0,0,35,270x26,0,37{136x26,0,37,36,133x26,137,37,37}]
+window	0	5	0	:	7826,270x63,0,0[270x37,0,0,38,270x25,0,38,39]
+window	0	6	0	:	de60,270x63,0,0,40
+window	1	1	1	:*	6294,179x45,0,0,15
+window	10	1	1	:*	6295,179x45,0,0,16
+window	12	1	1	:*	6296,179x45,0,0,17
+window	13	1	1	:*	6297,179x45,0,0,18
+window	15	1	1	:*	6298,179x45,0,0,19
+window	2	1	1	:*	e28f,179x45,0,0,20
+window	3	1	1	:*	e290,179x45,0,0,21
+window	4	1	1	:*	e291,179x45,0,0,22
+window	5	1	1	:*	e292,179x45,0,0,23
+window	7	1	1	:*	e293,179x45,0,0,24
+window	8	1	1	:*	e294,179x45,0,0,25
+window	9	1	1	:*	e295,179x45,0,0,26
+state	0	1
