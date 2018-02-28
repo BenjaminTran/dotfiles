@@ -1,0 +1,42 @@
+{
+  "settingsVersion": "1.62.4",
+  "exclusionRules": [
+    {
+      "pattern": "https?://www.wolframalpha.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https://www.messenger.com",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://www.messenger.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://application.med.yale.edu/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://dellmedicalschool.myvideointerview.co/*",
+      "passKeys": ""
+    }
+  ],
+  "filterLinkHints": true,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "#Default settings: CSS Colors\n# #FFF785 #FFC542 #E3BE23\n# Insert your preferred key mappings here.\n\nmap a Vomnibar.activate keyword=y\nmap s Vomnibar.activate keyword=g\nmap gm Vomnibar.activate keyword=gm\nmap qf LinkHints.activateModeToOpenInNewTab count=999999\nmap C createTab window https://dashb-cms-job-task.cern.ch/dashboard/templates/task-analysis/#user=Benjamin+Lucky+Tran&refresh=0&table=Mains&p=1&records=-1&activemenu=2&pattern=&task=&from=&till=&timerange=lastMonth http://dashb-cms-job.cern.ch/dashboard/templates/web-job2/#user=&refresh=0&table=Jobs&p=1&records=25&activemenu=1&usr=Benjamin+Lucky+Tran&site=&submissiontool=&application=&activity=&status=pending&status=running&status=done&status=success&status=donesuccess&check=submitted&tier=&date1=2017-12-02+00%3A21&date2=2017-12-09+12%3A47&sortby=activity&scale=linear&bars=20&ce=&rb=&grid=&jobtype=&submissionui=&dataset=&submissiontype=&task=&subtoolver=&genactivity=&outputse=&appexitcode=&accesstype=&inputse=&cores=\nmap <c-p> <c-[>\nmap <c-]> passNextKey",
+  "linkHintCharacters": "sadfjklewcmpgh",
+  "linkHintNumbers": "12347890",
+  "newTabUrl": "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<,continue",
+  "regexFindMode": true,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": true,
+  "searchEngines": "w: http://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\n \n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#\n g: http://www.google.com/search?q=%s Google\n# l: http://www.google.com/search?q=%s&btnI I'm feeling lucky...\n y: http://www.youtube.com/results?search_query=%s Youtube\n gm: https://www.google.com/maps?q=%s Google maps\n# b: https://www.bing.com/search?q=%s Bing\n# d: https://duckduckgo.com/?q=%s DuckDuckGo\n# az: http://www.amazon.com/s/?field-keywords=%s Amazon\n# qw: https://www.qwant.com/?q=%s Qwant",
+  "searchUrl": "https://www.google.com/search?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#84ecff),\n  color-stop(100%,#41bfff));\nborder: 1px solid #22b9e3;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 10px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}
