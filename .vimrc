@@ -83,6 +83,7 @@ set number
 set t_Co=256
 set hidden "allow switch buffers without saving currently modified buffer
 set colorcolumn=+1
+set omnifunc=syntaxcomplete#Complete
 "set shell=/bin/bash\ -i
 hi Search cterm=NONE ctermfg=blue ctermbg=grey
 
@@ -128,7 +129,7 @@ vnoremap fj <ESC>
 "Search visually selected
 vnoremap // y/<C-R>"<CR>
 
-let g:C_Ctrl_j ='off'
+let g:BASH_Ctrl_j ='off'
 " Solarized
 "set background = light
 "set background=dark
@@ -137,7 +138,7 @@ if has('gui_running')
     colorscheme skittles_autumn
     let g:solarized_termcolors=256
 else
-    colorscheme skittles_autumn
+    colorscheme skittles_berry
 endif
 
 " VIM Configurations from https://github.com/mcantor/no_plugins

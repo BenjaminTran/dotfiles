@@ -17,7 +17,16 @@ export PATH=$PATH:~/tools/gradle-2.7/bin
 export ZSH=$HOME/.oh-my-zsh
 
 # For Root 6.10 uncomment this line otherwise will load Root 5.34
-source /Applications/root_v6.10.02/bin/thisroot.sh
+source /Applications/root_v6.12.06/bin/thisroot.sh
+
+Dropbox=/volumes/MacHD/Users/blt1/Dropbox/
+MERGE=btran@lxplus.cern.ch:/eos/cms/store/group/phys_heavyions/btran/MERGE
+TEST=btran@lxplus.cern.ch:/afs/cern.ch/user/b/btran/work/CMSSW_8_0_24/src/PhiAnalyzer/PhiAnalyzer/test
+
+setopt HIST_VERIFY
+setopt EXTENDED_HISTORY
+setopt INC_APPEND_HISTORY
+
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -74,16 +83,18 @@ ZSH_THEME="cobalt2"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git tmux taskwarrior svn gradle extract vi-mode
+  git tmux taskwarrior svn gradle extract vi-mode zsh-autosuggestions zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
+setopt extended_glob
 
-# User configuration
+# User configuration bind-keys
 #
 
 bindkey -v
 bindkey fj vi-cmd-mode
+bindkey ' ' magic-space
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -176,4 +187,21 @@ while true; do
 	fi
 done
 }
+
+function rationalize-dot {
+	if [[ $LBUFFER = *.. ]]; then
+		LBUFFER+=/../
+	elif [[ $LBUFFER = *../ ]]; then
+		LBUFFER+=../
+	else
+		LBUFFER+=.
+	fi
+}
+zle -N rationalize-dot
+bindkey . rationalize-dot
+
+
 source ~/.oh-my-zsh/plugins/z/z.sh
+
+autoload -Uz zcalc
+autoload -U zmv
