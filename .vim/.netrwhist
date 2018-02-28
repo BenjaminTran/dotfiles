@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Volumes/MacHD/Users/blt1/research/CascadeV2pPb/CMSSW8PtBin/XiCorrelation'
+let g:netrw_dirhist_2='/Volumes/MacHD/Users/blt1/research/CascadeV2pPb/CMSSW8PtBin'
+let g:netrw_dirhist_3='/Volumes/MacHD/Users/blt1/Dropbox/MedicalSchool/MedApplication/Secondaries/ATM'
+let g:netrw_dirhist_4='/Volumes/MacHD/Users/blt1/Dropbox/MedicalSchool/MedApplication/Secondaries'
+let g:netrw_dirhist_5='/Volumes/MacHD/Users/blt1/Dropbox/MedicalSchool/MedApplication'
+let g:netrw_dirhist_6='/Volumes/MacHD/Users/blt1/Dropbox/MedicalSchool/MedApplication/Secondaries'
