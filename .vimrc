@@ -1,5 +1,5 @@
-set lazyredraw
-set ttyfast
+"set lazyredraw
+"set ttyfast
 " enable mouse
 "set mouse=a
 
@@ -21,6 +21,7 @@ set noshowmode
 let g:airline#extensions#tagbar#enabled = 0
 let g:airline#extensions#syntastic#enabled = 0
 let g:airline#extensions#encoding#enabled = 0
+let g:airline#extensions#ale#enabled = 1
 " Remove encoding if utf-8
 let g:airline#parts#ffenc#skip_expected_string='utf-8[unix]'
 " Shorten words to w
@@ -59,12 +60,13 @@ set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
 
-let mapleader=","
+"let mapleader=","
+let mapleader=" "
 set sm
 set showmatch
 set ai
 set nojoinspaces
-"syntax on
+syntax on
 highlight CursorLine ctermbg=DarkGray
 execute pathogen#infect()
 "let java_highlight_all=1
@@ -96,7 +98,9 @@ else
     let &t_EI = "\<ESC>]50;CursorShape=0\x7" " Block in normal mode
 endif
 
-"let g:ale_linters = {'cpp':['gcc'],}
+"let g:ale_linters = {
+            "\ 'cpp' : 'clangtidy',
+            "\}
 
 " navigating tabs
 nnoremap <leader>n :bp<CR>
@@ -104,7 +108,8 @@ nnoremap <leader>m :bn<CR>
 nnoremap <leader>t :tabnew<CR>
 nnoremap <leader>k :tabn<CR>
 nnoremap <leader>j :tabp<CR>
-"nnoremap <expr> du &diff ? ':diffup<CR>' : ''
+
+noremap <leader><leader> :%s:
 
 inoremap fj <ESC>
 inoremap gqq <Esc>{gq}2<c-o>
@@ -153,7 +158,7 @@ let g:netrw_list_hide=netrw_gitignore#Hide()
 let g:netrw_list_hide.=',\(^\|\s\s)\zs\.\S\+'
 "Customizable snippets
 "Snippets folder located in ~/.vim/.snippets/
-nnoremap ,html :-1read $HOME/.vim/.snippets/.skeleton.html<CR>3jwf>a
+"nnoremap ,html :-1read $HOME/.vim/.snippets/.skeleton.html<CR>3jwf>a
 
 "VIM-LATEX SUITE OPTIONS
 " REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
